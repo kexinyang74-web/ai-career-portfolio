@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/2026-08-19-任务1-岗位JD调研.md",
+                "file": "笔记/Day2-Git心智模型与词汇表-批改版.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-08-19-任务1-岗位JD调研"
+              "title": "Day2-Git心智模型与词汇表-批改版"
             }
           }
         ]
@@ -185,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 567.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,13 +201,15 @@
   },
   "active": "acae1562b9e635b6",
   "lastOpenFiles": [
-    "学习日志/2026-08-19-学习日志.md",
+    "笔记/Day2-Git心智模型与词汇表.md",
+    "笔记/Day2-Git心智模型与词汇表-批改版.md",
+    "笔记/2026-08-19-任务1-岗位JD调研.md",
     "plan/第1周-进度追踪.md",
+    "学习日志/2026-08-19-学习日志.md",
     "plan/第1周-定稿版.md",
     "plan/03-项目三件套规格书.md",
     "plan/04-进度追踪表.md",
     "学习日志",
-    "笔记/2026-08-19-任务1-岗位JD调研.md",
     "templates/岗位JD调研模板.md",
     "笔记",
     "总览看板.md",
@@ -236,8 +237,6 @@
     "个人作品集网站_项目/node_modules/@typescript/typescript-win32-x64/README.md",
     "个人作品集网站_项目/node_modules/@tailwindcss/oxide-win32-x64-msvc/README.md",
     "个人作品集网站_项目/node_modules/@vitejs/plugin-react/README.md",
-    "个人作品集网站_项目/node_modules/@tailwindcss/vite/README.md",
-    "个人作品集网站_项目/node_modules/@tailwindcss/node/README.md",
     "个人作品集网站_项目/public/avatar.jpg",
     "个人作品集网站_项目/dist/avatar.jpg"
   ]
