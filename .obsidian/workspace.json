@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "总览看板.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "总览看板"
             }
           }
         ]
@@ -169,13 +169,23 @@
               "icon": "lucide-list",
               "title": "大纲"
             }
+          },
+          {
+            "id": "510084b6eab55818",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,11 +201,18 @@
   },
   "active": "acae1562b9e635b6",
   "lastOpenFiles": [
+    "plan/01-24周执行计划.md",
+    "总览看板.md",
+    "skill-tmp/SKILL.md",
+    "skill-tmp",
+    "未命名.base",
+    "2026-08-19.md",
+    "README.md",
+    "Obsidian使用说明.md",
     "templates/学习日志模板.md",
     "templates/面试题记录模板.md",
     "templates/简历项目描述模板.md",
     "templates/岗位JD调研模板.md",
-    "Obsidian使用说明.md",
     "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/sharedArrayCancellation.js",
     "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/sharedArrayCancellation.d.ts",
     "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/semaphore.js",
@@ -204,8 +221,6 @@
     "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/ral.d.ts",
     "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/messageWriter.js",
     "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/messageWriter.d.ts",
-    "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/messages.js",
-    "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/messages.d.ts",
     "个人作品集网站_项目/node_modules/vite/node_modules/lightningcss-win32-x64-msvc/README.md",
     "个人作品集网站_项目/node_modules/vite/node_modules/lightningcss/README.md",
     "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/README.md",
@@ -222,11 +237,6 @@
     "个人作品集网站_项目/node_modules/@jridgewell/resolve-uri/README.md",
     "个人作品集网站_项目/node_modules/@oxc-project/types/README.md",
     "个人作品集网站_项目/node_modules/@jridgewell/trace-mapping/README.md",
-    "个人作品集网站_项目/node_modules/@jridgewell/remapping/README.md",
-    "个人作品集网站_项目/node_modules/@jridgewell/gen-mapping/README.md",
-    "个人作品集网站_项目/node_modules/vite/README.md",
-    "个人作品集网站_项目/node_modules/vite/LICENSE.md",
-    "个人作品集网站_项目/node_modules/tinyglobby/README.md",
     "个人作品集网站_项目/public/avatar.jpg",
     "个人作品集网站_项目/dist/avatar.jpg"
   ]
