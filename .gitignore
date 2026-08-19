@@ -14,3 +14,9 @@ chat_history.json
 # 系统文件
 .DS_Store
 Thumbs.db
+
+# 独立的嵌套项目（保留在本地，但不属于学习仓库）
+/个人作品集网站_项目/
+
+# 多余的 Obsidian 空库配置
+/学习安排/
