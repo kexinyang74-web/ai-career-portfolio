@@ -13,17 +13,21 @@
 ## 目录结构
 
 ```text
-outputs/
+.
 ├─ README.md                    ← 本文件
+├─ 总览看板.md                  ← 每日进度总览（Obsidian 主入口）
+├─ Obsidian使用说明.md          ← Obsidian 配置与插件说明
 ├─ plan/
 │  ├─ 01-24周执行计划.md         ← 每周任务清单（核心文件）
 │  ├─ 02-学习资源清单.md         ← 免费/付费资源导航
 │  ├─ 03-项目三件套规格书.md     ← 三个作品的验收标准
-│  └─ 04-进度追踪表.md           ← 24 周打卡记录
+│  ├─ 04-进度追踪表.md           ← 24 周打卡记录
+│  └─ 第1周-定稿版.md            ← 第 1 周执行版
 ├─ templates/
 │  ├─ 学习日志模板.md
 │  ├─ 简历项目描述模板.md
-│  └─ 面试题记录模板.md
+│  ├─ 面试题记录模板.md
+│  └─ 岗位JD调研模板.md          ← 任务 1 产出物模板
 └─ projects/
    └─ project-1-ai-assistant/   ← 项目一：行业 AI 助手（可用代码骨架）
 ```
@@ -37,7 +41,7 @@ outputs/
 ## 快速开始（项目一）
 
 ```powershell
-cd outputs/projects/project-1-ai-assistant
+cd projects/project-1-ai-assistant
 python -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
@@ -46,19 +50,16 @@ Copy-Item .env.example .env
 python main.py "你是我的行业助手，帮我分析今天的工作重点"
 ```
 
-## 推送到 GitHub（第 1 周任务）
+## 日常更新（已关联 GitHub）
 
-1. 在 GitHub 新建仓库 `ai-career-portfolio`（Public）。
-2. 把这个 `outputs` 目录复制到本地新文件夹，执行：
+本仓库已推送到 GitHub：https://github.com/kexinyang74-web/ai-career-portfolio
 
 ```powershell
-git init
-git add .
-git commit -m "init: 6个月转行学习操作系统 + 项目一骨架"
-git branch -M main
-git remote add origin https://github.com/你的用户名/ai-career-portfolio.git
-git push -u origin main
+git add -A
+git commit -m "更新学习进度"
+git push
 ```
 
-3. 之后每天的学习笔记、每周进度、三个项目都往这个仓库推。**面试官看的就是这个仓库。**
+也可以让 AI 代跑，或在 Obsidian 里用 Git 插件自动备份（见 [Obsidian使用说明](Obsidian使用说明.md)）。
 
+每天的学习笔记、每周进度、三个项目都往这个仓库推。**面试官看的就是这个仓库。**
