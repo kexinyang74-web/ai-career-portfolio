@@ -1,0 +1,233 @@
+{
+  "main": {
+    "id": "fda52319e4c1001d",
+    "type": "split",
+    "children": [
+      {
+        "id": "abc995c74a5f867f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "acae1562b9e635b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian使用说明.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Obsidian使用说明"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c285d1268929a587",
+    "type": "split",
+    "children": [
+      {
+        "id": "df836bb1e4379d6e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69e8ad15f7d4edf2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "40f9a3e815aaab23",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "c26a73663bc170b7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5c0ad2b060aa4ef8",
+    "type": "split",
+    "children": [
+      {
+        "id": "d58e6aa52116684d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e4180bea1b34dcdb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Obsidian使用说明.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "07b60be68e93987e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Obsidian使用说明.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "10b6639b28abe5df",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "ea8d10b158a301ed",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "72bef2218458fb3d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Obsidian使用说明.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "acae1562b9e635b6",
+  "lastOpenFiles": [
+    "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/sharedArrayCancellation.js",
+    "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/sharedArrayCancellation.d.ts",
+    "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/semaphore.js",
+    "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/semaphore.d.ts",
+    "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/ral.js",
+    "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/ral.d.ts",
+    "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/messageWriter.js",
+    "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/messageWriter.d.ts",
+    "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/messages.js",
+    "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/messages.d.ts",
+    "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/messageReader.js",
+    "个人作品集网站_项目/node_modules/vite/node_modules/lightningcss-win32-x64-msvc/README.md",
+    "个人作品集网站_项目/node_modules/vite/node_modules/lightningcss/README.md",
+    "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/README.md",
+    "个人作品集网站_项目/node_modules/@types/react-dom/README.md",
+    "个人作品集网站_项目/node_modules/@types/react/README.md",
+    "个人作品集网站_项目/node_modules/@typescript/typescript-win32-x64/README.md",
+    "个人作品集网站_项目/node_modules/@tailwindcss/oxide-win32-x64-msvc/README.md",
+    "个人作品集网站_项目/node_modules/@vitejs/plugin-react/README.md",
+    "个人作品集网站_项目/node_modules/@tailwindcss/vite/README.md",
+    "个人作品集网站_项目/node_modules/@tailwindcss/node/README.md",
+    "个人作品集网站_项目/node_modules/@rolldown/binding-win32-x64-msvc/README.md",
+    "个人作品集网站_项目/node_modules/@rolldown/pluginutils/README.md",
+    "个人作品集网站_项目/node_modules/@jridgewell/sourcemap-codec/README.md",
+    "个人作品集网站_项目/node_modules/@jridgewell/resolve-uri/README.md",
+    "个人作品集网站_项目/node_modules/@oxc-project/types/README.md",
+    "个人作品集网站_项目/node_modules/@jridgewell/trace-mapping/README.md",
+    "个人作品集网站_项目/node_modules/@jridgewell/remapping/README.md",
+    "个人作品集网站_项目/node_modules/@jridgewell/gen-mapping/README.md",
+    "个人作品集网站_项目/node_modules/vite/README.md",
+    "个人作品集网站_项目/node_modules/vite/LICENSE.md",
+    "个人作品集网站_项目/node_modules/tinyglobby/README.md",
+    "个人作品集网站_项目/node_modules/typescript/README.md",
+    "个人作品集网站_项目/node_modules/tapable/README.md",
+    "个人作品集网站_项目/node_modules/tailwindcss/README.md",
+    "个人作品集网站_项目/node_modules/source-map-js/README.md",
+    "个人作品集网站_项目/public/avatar.jpg",
+    "个人作品集网站_项目/dist/avatar.jpg"
+  ]
+}
