@@ -6,7 +6,7 @@
 
 - Python 3.13.5（`D:\proflim\python.exe`），满足 3.12+ 要求 ✅
 - pip 25.1 ✅
-- 编辑器：Cursor（VS Code 同系编辑器；本机未安装 VS Code，如想用纯 VS Code 可后续另装）
+- 编辑器：VS Code 已安装（`C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\Code.exe`，v1.131.0）；也可用 Cursor（VS Code 同系编辑器）
 - 实战项目：`projects/project-1-ai-assistant`（项目一骨架，第 5 周开始真正开发）
 
 ## 二、venv：项目的"独立小房间"
