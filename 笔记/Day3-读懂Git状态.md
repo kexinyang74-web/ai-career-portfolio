@@ -109,3 +109,28 @@ diff --git a/总览看板.md b/总览看板.md
 7. **push（待办）**：本次代理未开（127.0.0.1:7890 不通），本地领先远程数个提交；打开代理后执行 `git push` 即可
 
 一句话总结：**status 看全局，diff 看细节，log 看历史，branch 是指针，clone 是复制，commit 只存本地、push 才上传。**
+
+## 六、Day 3 自测 5 题
+
+> 先不看书、凭记忆作答。把答案写在《Day3-自测作答.md》里，写完让 AI 批改（会像 Day 2 一样生成批改版，指出对错和补充讲解）。
+
+**第 1 题**：`git status` 里出现下面两行，请解释它们的意思，并说你现在该做什么：
+
+```text
+Your branch is ahead of 'origin/main' by 8 commits.
+Changes not staged for commit:
+	modified:   总览看板.md
+```
+
+**第 2 题**：解释 `git log --oneline` 输出中的三样东西：`(HEAD -> main)`、`(origin/main)`、以及为什么最新提交排在最上面。如果 `origin/main` 停在第 4 行，说明什么？
+
+**第 3 题**：`git diff` 输出中，`-` 开头的行、`+` 开头的行、`@@` 分别代表什么？为什么一个"刚创建的新文件"在 `git diff` 里看不到改动？要看它该用什么命令？
+
+**第 4 题**：判断对错并说明理由：
+
+- A. `git commit` 之后，GitHub 网页上立刻就能看到这次改动。
+- B. 删除一个分支，这个分支上的所有提交都会永久丢失。
+- C. `git clone` 会复制一份包含全部历史的仓库。
+- D. `git status` 显示 "up to date with 'origin/main'" 时，说明本地没有任何未提交的改动。
+
+**第 5 题**：用你自己的话说清楚 `git status` / `git diff` / `git log --oneline` 分别看什么。另外，如果 AI 对你说"我把最近的修改提交并推送了"，你作为监督者应该先用哪两条命令验证？
