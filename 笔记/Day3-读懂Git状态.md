@@ -91,6 +91,21 @@ diff --git a/总览看板.md b/总览看板.md
 
 检查单口诀：**status 看全局，diff 看细节，log 看历史。** AI 说"提交并推送"前，先用这三条验证它要做的事。
 
-## 五、实战记录
+## 五、实战记录（Day 3 实录）
 
-（本次 Day 3 实战：AI 代跑 add → commit → branch → clone，逐段记录见下，跑完补充）
+本次在真实仓库里走了一遍 add → commit → branch → clone，逐段看懂每一步输出：
+
+1. **add**：`git add 笔记/Day3-读懂Git状态.md` → `git status` 里该文件从 `??`（未跟踪）变成 `A`（已选中）
+2. **diff --cached**：`git diff --cached --stat` → `1 file changed, 96 insertions(+)`，即"这次要存 96 行新内容"
+3. **commit**：`git commit -m "docs: Day3 学会读懂 Git 状态"` → 输出 `[main 169ee4b] ... 1 file changed, 96 insertions(+)`
+4. **log**：`git log --oneline --decorate` → 新提交出现在最顶，标着 `(HEAD -> main)`
+5. **branch**：
+   - `git switch -c demo/day3-read` → `Switched to a new branch`
+   - `git branch -a -v` → `*` 标出当前分支；新分支和 main 指向同一个提交
+   - `git switch main` → 切回主时间线
+   - `git branch -d demo/day3-read` → `Deleted branch ... (was 169ee4b)`，main 毫发无损
+   - 理解：**分支只是一个指向提交的指针**。新建 = 从某提交分叉；删除 = 只删指针，提交和历史都还在
+6. **clone**：`git clone <仓库路径> <临时目录>` → 复制出完整的一份，`git log` 看到和本地一模一样的全部历史。clone = 完整备份/换电脑同步
+7. **push（待办）**：本次代理未开（127.0.0.1:7890 不通），本地领先远程数个提交；打开代理后执行 `git push` 即可
+
+一句话总结：**status 看全局，diff 看细节，log 看历史，branch 是指针，clone 是复制，commit 只存本地、push 才上传。**
