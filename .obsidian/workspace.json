@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "总览看板.md",
+                "file": "笔记/2026-08-19-任务1-岗位JD调研.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "总览看板"
+              "title": "2026-08-19-任务1-岗位JD调研"
             }
           }
         ]
@@ -185,7 +185,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,8 +202,11 @@
   },
   "active": "acae1562b9e635b6",
   "lastOpenFiles": [
-    "plan/01-24周执行计划.md",
+    "templates/岗位JD调研模板.md",
+    "笔记/2026-08-19-任务1-岗位JD调研.md",
+    "笔记",
     "总览看板.md",
+    "plan/01-24周执行计划.md",
     "skill-tmp/SKILL.md",
     "skill-tmp",
     "未命名.base",
@@ -212,7 +216,6 @@
     "templates/学习日志模板.md",
     "templates/面试题记录模板.md",
     "templates/简历项目描述模板.md",
-    "templates/岗位JD调研模板.md",
     "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/sharedArrayCancellation.js",
     "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/sharedArrayCancellation.d.ts",
     "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/semaphore.js",
@@ -220,7 +223,6 @@
     "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/ral.js",
     "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/ral.d.ts",
     "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/messageWriter.js",
-    "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/messageWriter.d.ts",
     "个人作品集网站_项目/node_modules/vite/node_modules/lightningcss-win32-x64-msvc/README.md",
     "个人作品集网站_项目/node_modules/vite/node_modules/lightningcss/README.md",
     "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/README.md",
@@ -236,7 +238,6 @@
     "个人作品集网站_项目/node_modules/@jridgewell/sourcemap-codec/README.md",
     "个人作品集网站_项目/node_modules/@jridgewell/resolve-uri/README.md",
     "个人作品集网站_项目/node_modules/@oxc-project/types/README.md",
-    "个人作品集网站_项目/node_modules/@jridgewell/trace-mapping/README.md",
     "个人作品集网站_项目/public/avatar.jpg",
     "个人作品集网站_项目/dist/avatar.jpg"
   ]
