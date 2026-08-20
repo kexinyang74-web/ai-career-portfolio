@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day8-Python基础实操.md",
+                "file": "笔记/Day8-自测5题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day8-Python基础实操"
+              "title": "Day8-自测5题"
             }
           },
           {
@@ -215,6 +215,10 @@
   },
   "active": "acae1562b9e635b6",
   "lastOpenFiles": [
+    "笔记/Day8-Python基础实操.md",
+    "projects/python-practice/day8/leetcode_1.py",
+    "projects/python-practice/day8/leetcode_1768.py",
+    "projects/python-practice/leetcode_1768.py",
     "projects/python-practice/day8/05_max.py",
     "projects/python-practice/day8/04_loop_compare.py",
     "projects/python-practice/day8/03_sum_even.py",
@@ -222,10 +226,7 @@
     "projects/python-practice/day8/02_grade.py",
     "projects/python-practice/day8/01_variables.py",
     "projects/python-practice/day8",
-    "projects/python-practice/day8 .py",
-    "projects/python-practice",
     "笔记/Day2-Git心智模型与词汇表.md",
-    "笔记/Day8-Python基础实操.md",
     "plan/第1周-进度追踪.md",
     "plan/第2周-定稿版.md",
     "plan/第2周-进度追踪.md",
@@ -249,8 +250,6 @@
     "笔记/Day1-岗位JD调研.md",
     "笔记/Day4-自测5题.md",
     "学习日志/2026-08-20-Day5-学习日志.md",
-    "projects/project-1-ai-assistant/test_env.py",
-    "学习日志",
     "个人作品集网站_项目/public/avatar.jpg",
     "个人作品集网站_项目/dist/avatar.jpg"
   ]
