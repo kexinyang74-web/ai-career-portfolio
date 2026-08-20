@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day4-自测5题.md",
+                "file": "plan/05-作品三件套目标.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day4-自测5题"
+              "title": "05-作品三件套目标"
             }
           }
         ]
@@ -201,17 +201,21 @@
   },
   "active": "acae1562b9e635b6",
   "lastOpenFiles": [
+    "学习日志/2026-08-20-Day5-学习日志.md",
+    "笔记/Day5-自测5题.md",
+    "笔记/Day4-Python环境与密钥管理.md",
+    "plan/第1周-进度追踪.md",
+    "plan/第1周-定稿版.md",
+    "plan/05-作品三件套目标.md",
+    "plan/03-项目三件套规格书.md",
+    "plan/04-进度追踪表.md",
+    "学习日志/2026-08-19-Day4-学习日志.md",
     "笔记/Day4-自测5题-批改版.md",
     "笔记/Day4-自测5题.md",
-    "学习日志/2026-08-19-Day4-学习日志.md",
     "projects/project-1-ai-assistant/test_env.py",
-    "笔记/Day4-Python环境与密钥管理.md",
     "总览看板.md",
     "学习日志/2026-08-19-Day3-学习日志.md",
     "笔记/Day3-读懂Git状态-批改版.md",
-    "plan/第1周-定稿版.md",
-    "plan/第1周-进度追踪.md",
-    "plan/04-进度追踪表.md",
     "笔记/Day3-读懂Git状态.md",
     "笔记/Day3-自测作答.md",
     "笔记/Day2-Git心智模型与词汇表.md",
@@ -220,15 +224,12 @@
     "当前状态.md",
     "学习日志/2026-08-19-Day1学习日志.md",
     "笔记/Day1-岗位JD调研.md",
-    "plan/03-项目三件套规格书.md",
     "templates/学习日志模板.md",
     "templates/简历项目描述模板.md",
     "templates/岗位JD调研模板.md",
     "projects/project-1-ai-assistant/README.md",
     "学习日志",
     "笔记",
-    "plan/01-24周执行计划.md",
-    "skill-tmp/SKILL.md",
     "skill-tmp",
     "未命名.base",
     "个人作品集网站_项目/node_modules/typescript/vendor/vscode-jsonrpc/lib/common/sharedArrayCancellation.js",
