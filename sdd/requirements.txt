@@ -1,0 +1,9 @@
+# SDD+TDD 工具链（依据 sdd笔记.txt 的方法论配置）
+fastapi>=0.115          # 后端 API 框架（笔记演示技术栈）
+uvicorn[standard]>=0.32 # ASGI 服务器
+pytest>=8.3             # 动态测试（TDD 红绿循环）
+pyright>=1.1.380        # 静态类型校验（三层验收第一层）
+httpx>=0.27             # FastAPI TestClient 依赖
+python-dotenv>=1.0      # .env 配置读取
+
+playwright>=1.62         # 前端自动化测试（笔记推荐；Chromium 已装）

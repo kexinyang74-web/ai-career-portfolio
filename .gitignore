@@ -4,6 +4,7 @@
 # Python 缓存与虚拟环境
 __pycache__/
 *.pyc
+.pytest_cache/
 .venv/
 venv/
 
