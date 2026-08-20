@@ -215,6 +215,9 @@
   },
   "active": "acae1562b9e635b6",
   "lastOpenFiles": [
+    "sdd/skill-draft/openai.yaml",
+    "sdd/skill-draft/SKILL.md",
+    "sdd/skill-draft",
     "sdd/spec/api_contract.md",
     "sdd/tests/__pycache__/test_smoke.cpython-313-pytest-9.1.1.pyc",
     "sdd/tests/__pycache__/conftest.cpython-313-pytest-9.1.1.pyc",
@@ -228,7 +231,6 @@
     "sdd/spec/product_spec.md",
     "sdd/spec/working_agreement.md",
     "sdd/spec/README.md",
-    "sdd/spec",
     "sdd/README.md",
     "笔记/Day1-岗位JD调研.md",
     "plan/04-进度追踪表.md",
@@ -249,8 +251,6 @@
     "plan/01-24周执行计划.md",
     "笔记/Day6-自测5题-批改版.md",
     "plan/02-学习资源清单.md",
-    "plan/第1周-定稿版.md",
-    "笔记/Day6-自测5题.md",
     "个人作品集网站_项目/public/avatar.jpg",
     "个人作品集网站_项目/dist/avatar.jpg"
   ]
