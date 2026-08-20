@@ -69,3 +69,14 @@ while j >= 2:
 列表 `nums = [3, 7, 2, 9, 5]`，不用内置 `max()`，用循环找出最大值并打印。
 
 作答：
+nums = [3,7,2,9,5]
+
+max_num = nums[0]
+
+for num in nums:
+
+    if num > max_num:
+
+        max_num = num
+
+print(max_num)

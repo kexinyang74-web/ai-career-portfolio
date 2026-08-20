@@ -13,3 +13,15 @@ for i in range(len(nums)):
     else:
         continue
     break
+
+
+
+
+#高级解法：
+# def two_sum(nums, target):
+#     for i in range(len(nums)):
+#         for j in range(i + 1, len(nums)):
+#             if nums[i] + nums[j] == target:
+#                 return [i, j]   # return 一出口，函数立刻结束，不用 break 两层
+
+# print(two_sum([2, 7, 11, 15], 9))   # 输出 [0, 1]
