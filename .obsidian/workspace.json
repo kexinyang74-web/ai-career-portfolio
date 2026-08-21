@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day9-自测5题.md",
+                "file": "学习日志/2026-08-21-Day9-学习日志.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day9-自测5题"
+              "title": "2026-08-21-Day9-学习日志"
             }
           },
           {
@@ -215,6 +215,10 @@
   },
   "active": "acae1562b9e635b6",
   "lastOpenFiles": [
+    "笔记/Python语法速查卡.md",
+    "笔记/Day9-自测5题-批改版.md",
+    "学习日志/2026-08-21-Day9-学习日志.md",
+    "笔记/Day9-自测5题.md",
     "笔记/Day9-函数与字符串处理.md",
     "projects/python-practice/day9/leetcode_14.py",
     "projects/python-practice/day9/leetcode_",
@@ -225,8 +229,6 @@
     "projects/python-practice/day9/02_add.py",
     "projects/python-practice/day9/01_greet.py",
     "projects/python-practice/day9",
-    "笔记/Day9-自测5题.md",
-    "学习日志/2026-08-21-Day9-学习日志.md",
     "plan/01-24周执行计划.md",
     "plan/第2周-定稿版.md",
     "plan/第1周-进度追踪.md",
@@ -249,7 +251,6 @@
     "笔记/Day8-自测5题.md",
     "笔记/Day8-自测5题-批改版.md",
     "笔记/Day8-Python基础实操.md",
-    "笔记/Day2-Git心智模型与词汇表.md",
     "个人作品集网站_项目/public/avatar.jpg",
     "个人作品集网站_项目/dist/avatar.jpg"
   ]
