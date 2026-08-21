@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day9-函数与字符串处理.md",
+                "file": "笔记/Day9-自测5题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day9-函数与字符串处理"
+              "title": "Day9-自测5题"
             }
           },
           {
@@ -215,6 +215,10 @@
   },
   "active": "acae1562b9e635b6",
   "lastOpenFiles": [
+    "笔记/Day9-函数与字符串处理.md",
+    "projects/python-practice/day9/leetcode_14.py",
+    "projects/python-practice/day9/leetcode_",
+    "projects/python-practice/day9/leetcode_344.py",
     "projects/python-practice/day9/05_word_count.py",
     "projects/python-practice/day9/04_slice.py",
     "projects/python-practice/day9/03_strings.py",
@@ -224,7 +228,6 @@
     "笔记/Day9-自测5题.md",
     "学习日志/2026-08-21-Day9-学习日志.md",
     "plan/01-24周执行计划.md",
-    "笔记/Day9-函数与字符串处理.md",
     "plan/第2周-定稿版.md",
     "plan/第1周-进度追踪.md",
     "plan/第1周-定稿版.md",
@@ -236,11 +239,7 @@
     "plan/第2周-进度追踪.md",
     "sdd/skill-draft/openai.yaml",
     "sdd/skill-draft/SKILL.md",
-    "sdd/skill-draft",
     "sdd/spec/api_contract.md",
-    "sdd/tests/__pycache__/test_smoke.cpython-313-pytest-9.1.1.pyc",
-    "sdd/tests/__pycache__/conftest.cpython-313-pytest-9.1.1.pyc",
-    "sdd/tests/__pycache__",
     "sdd/spec/product_spec.md",
     "sdd/spec/working_agreement.md",
     "sdd/spec/README.md",
