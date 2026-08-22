@@ -31,3 +31,10 @@ score = {"语文":90, "数学": 85}
 
 for key, value in score.items():
     print(key,value,"分")
+
+score["数学"] = 95 
+print(score["数学"])
+
+score.update({"英语":88})
+
+print(score)
