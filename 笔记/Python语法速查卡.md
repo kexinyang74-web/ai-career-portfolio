@@ -1,4 +1,4 @@
-# Python 语法速查卡（第 2 周 · Day 8-9）
+# Python 语法速查卡（第 2 周 · Day 8-10）
 
 > 原则：**能查到就行，不用背**。忘了就瞄一眼，多用几次自然就熟了。
 > 用法：Obsidian 里把本页钉在左侧栏，或打印贴显示器边。
@@ -79,18 +79,94 @@ len(s)                   # 长度（数了才算）
 "python"[-1]     # "n"（负索引从右往左数）
 ```
 
-## 列表基础 + 交换两个元素
+## 列表（增删改查）
 
 ```python
-s = ["h", "e", "l", "l", "o"]
-s[0]             # "h"（下标从 0 开始）
-len(s)           # 5
+fruits = ["apple", "banana", "cherry"]
+
+fruits[0]                 # 查："apple"（下标从 0 开始）
+fruits[-1]                # 查："cherry"（-1 是最后一个）
+len(fruits)               # 查：3
+
+fruits.append("orange")   # 增：加到末尾
+fruits.insert(1, "grape") # 增：插到指定位置
+
+fruits[0] = "watermelon"  # 改：按索引重新赋值
+
+fruits.remove("banana")   # 删：按值删
+fruits.pop()              # 删：按位置删（默认删最后一项）
+fruits.sort()             # 排序（原地改）
+
+for f in fruits:          # 遍历
+    print(f)
 
 # 交换 s[left] 和 s[right]（temp 三步，防止被覆盖）
 temp = s[left]
 s[left] = s[right]
 s[right] = temp
 ```
+
+## 字典（键值对，用"名字"找"东西"）
+
+```python
+student = {"name": "小明", "age": 18}
+
+student["name"]             # 查："小明"（键不存在会报 KeyError）
+student.get("age")          # 查：不存在返回 None，不报错
+student.get("score", 0)     # 查：不存在返回默认值 0
+"name" in student           # 判断键在不在 → True
+
+student["score"] = 95       # 增：直接给新键赋值
+student["age"] = 19         # 改：给已有键重新赋值
+student.pop("city")         # 删：按键删
+student.update({"英语": 88})  # 增/改：一次加多个
+
+for key, value in student.items():   # 遍历（键 + 值）
+    print(key, "→", value)
+```
+
+## 元组（封起来的列表：不可变）
+
+```python
+point = (10, 20)
+
+point[0]         # 查：10
+len(point)       # 2
+x, y = point     # 拆包：x=10, y=20
+# point[0] = 99  # ❌ 报错：元组不能改
+
+list(point)      # 元组 → 列表（可变了）
+tuple(lst)       # 列表 → 元组
+```
+
+一句话：数据不该被改就用元组；元组能当字典的键，列表不能。
+
+## 集合（自动去重的袋子）
+
+```python
+nums = {1, 2, 2, 3}              # {1, 2, 3}：重复自动去掉
+nums.add(4)                      # 加
+nums.remove(2)                   # 删（不存在报错）
+nums.discard(99)                 # 删（不存在也不报错）
+3 in nums                        # True（判断在不在，极快）
+
+list(set(words))                 # 去重神器：列表 → 集合去重 → 列表
+len(nums) != len(set(nums))      # 判重套路（LeetCode 217）
+
+{1, 2, 3} & {3, 4}               # 交集 → {3}
+{1, 2, 3} | {3, 4}               # 并集 → {1, 2, 3, 4}
+{1, 2, 3} - {3, 4}               # 差集 → {1, 2}
+```
+
+## 统计套路（面试高频：数次数）
+
+```python
+freq = {}
+for word in text.split():
+    freq[word] = freq.get(word, 0) + 1   # 没记过按 0，遇到一次 +1
+```
+
+LeetCode 217（判重）、242（比异位词）、统计单词频率全用它。
 
 ## 防坑清单
 
@@ -99,12 +175,18 @@ s[right] = temp
 - `split(", ")` 是"逗号+空格"；字符串里没有空格就用 `split(",")`
 - `while` 里必须有让条件变化的语句，否则死循环
 - 函数定义完要调用才会执行；切片含头不含尾
+- 字典取值用圆括号：`get("age")`，不是 `get["age"]`——`[]` 是拿东西，`()` 是做事
+- `for`/`if`/`def`/`while` 行尾必须有冒号（报错 `expected ':'`）
+- `.split()` 是字符串专属；列表已经是一个个元素，直接遍历，不能再切
+- 循环变量名前后要一致：`for n in nums:` 里就用 `n`，别用别的名字
+- `"一" in week` 返回 `True`/`False`（成员判断），不是变量
+- 列表能被改（可变），字符串/元组不能（不可变）
 
 ## 运行代码（终端两连）
 
 ```powershell
-cd C:\Users\Administrator\Desktop\学习安排\projects\python-practice\day9
-D:\proflim\python.exe -X utf8 01_greet.py
+cd C:\Users\Administrator\Desktop\学习安排\projects\python-practice\day10
+D:\proflim\python.exe 05_word_freq.py
 ```
 
-中文乱码 = 显示编码问题（exit code 0 即程序正常），加 `-X utf8` 可正常显示。
+已设置环境变量 `PYTHONUTF8=1`，中文输出正常（不用再加 `-X utf8`）。
