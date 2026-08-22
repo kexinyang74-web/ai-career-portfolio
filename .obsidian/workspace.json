@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day10-容器与数据结构.md",
+                "file": "plan/01-24周执行计划.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day10-容器与数据结构"
+              "title": "01-24周执行计划"
             }
           },
           {
@@ -215,13 +215,20 @@
   },
   "active": "acae1562b9e635b6",
   "lastOpenFiles": [
-    "projects/python-practice/day10/03_tuple.py",
-    "笔记/Day10-自测5题.md",
-    "plan/01-24周执行计划.md",
-    "plan/02-学习资源清单.md",
     "plan/03-项目三件套规格书.md",
+    "plan/02-学习资源清单.md",
     "plan/04-进度追踪表.md",
+    "plan/01-24周执行计划.md",
+    "plan/第1周-定稿版.md",
+    "plan/05-作品三件套目标.md",
+    "Obsidian使用说明.md",
+    "README.md",
+    "AI应用开发岗位要求.md",
+    "总览看板.md",
+    "当前状态.md",
+    "笔记/Day10-自测5题.md",
     "笔记/Day10-容器与数据结构.md",
+    "projects/python-practice/day10/03_tuple.py",
     "projects/python-practice/day10/02_dict.py",
     "projects/python-practice/day10/01_list.py",
     "projects/python-practice/day10",
@@ -237,20 +244,13 @@
     "projects/python-practice/day9/05_word_count.py",
     "projects/python-practice/day9/04_slice.py",
     "projects/python-practice/day9/03_strings.py",
-    "projects/python-practice/day9/02_add.py",
     "plan/第2周-定稿版.md",
     "plan/第1周-进度追踪.md",
-    "plan/第1周-定稿版.md",
-    "plan/05-作品三件套目标.md",
     "学习日志/2026-08-20-Day8-学习日志.md",
     "plan/第2周-进度追踪.md",
     "sdd/skill-draft/SKILL.md",
     "sdd/spec/api_contract.md",
     "sdd/spec/product_spec.md",
-    "sdd/spec/working_agreement.md",
-    "sdd/spec/README.md",
-    "sdd/README.md",
-    "笔记/Day1-岗位JD调研.md",
     "个人作品集网站_项目/public/avatar.jpg",
     "个人作品集网站_项目/dist/avatar.jpg"
   ]
