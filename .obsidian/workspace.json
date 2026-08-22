@@ -215,6 +215,8 @@
   },
   "active": "acae1562b9e635b6",
   "lastOpenFiles": [
+    "projects/python-practice/day10/05_word_freq.py",
+    "projects/python-practice/05_word_freq.py",
     "projects/python-practice/day10/04_set.py",
     "笔记/Day10-自测5题.md",
     "笔记/Python语法速查卡.md",
@@ -249,8 +251,6 @@
     "projects/python-practice/day9/leetcode_",
     "projects/python-practice/day9/leetcode_344.py",
     "projects/python-practice/day9/05_word_count.py",
-    "projects/python-practice/day9/04_slice.py",
-    "projects/python-practice/day9/03_strings.py",
     "个人作品集网站_项目/public/avatar.jpg",
     "个人作品集网站_项目/dist/avatar.jpg"
   ]
