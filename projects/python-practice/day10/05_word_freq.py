@@ -19,3 +19,19 @@ def most_common(freq):
 
 freq = word_freq("the cat and the dog")
 print(most_common(freq))
+
+
+
+def count_char(text):
+
+    char = {}
+
+    for word in text.split():
+
+        char[word] = char.get(word,0) +1
+
+    return char
+
+  
+
+print(count_char("hello"))
