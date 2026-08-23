@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day1-岗位JD调研.md",
+                "file": "笔记/Day11-文件读写.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day1-岗位JD调研"
+              "title": "Day11-文件读写"
             }
           }
         ],
@@ -216,10 +216,17 @@
   },
   "active": "acae1562b9e635b6",
   "lastOpenFiles": [
+    "fruits2.txt",
+    "fruits.txt",
+    "projects/python-practice/day11/02_write_txt.py",
+    "projects/python-practice/day11/tempCodeRunnerFile.py",
+    "hello.txt",
+    "projects/python-practice/day11/01_read_txt.py",
+    "笔记/Day11-自测5题.md",
+    "笔记/Day1-岗位JD调研.md",
     "学习日志/2026-08-22-Day10-学习日志.md",
     "笔记/Python语法速查卡.md",
     "笔记/Day10-自测5题-批改版.md",
-    "笔记/Day1-岗位JD调研.md",
     "笔记/命令速查卡.md",
     "笔记/Day10-自测5题.md",
     "当前状态.md.tmp.20984.d0d98144efc9",
@@ -229,10 +236,6 @@
     "plan/01-24周执行计划.md",
     "学习日志/2026-08-22-Day10-学习日志.md.tmp.20984.83e9ba3f1030",
     "projects/python-practice/day10/leetcode_242.py",
-    "projects/python-practice/day10/leetcode_217.py",
-    "projects/python-practice/day10/05_word_freq.py",
-    "projects/python-practice/05_word_freq.py",
-    "projects/python-practice/day10/04_set.py",
     "笔记/Day9-自测5题-批改版.md",
     "AI应用开发岗位要求.md",
     "总览看板.md",
@@ -249,9 +252,6 @@
     "plan/04-进度追踪表.md",
     "plan/03-项目三件套规格书.md",
     "plan/02-学习资源清单.md",
-    "Obsidian使用说明.md",
-    "README.md",
-    "projects/python-practice/day10/03_tuple.py",
     "个人作品集网站_项目/public/avatar.jpg",
     "个人作品集网站_项目/dist/avatar.jpg"
   ]
