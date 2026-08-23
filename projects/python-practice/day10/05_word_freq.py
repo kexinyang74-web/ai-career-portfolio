@@ -22,16 +22,4 @@ print(most_common(freq))
 
 
 
-def count_char(text):
 
-    char = {}
-
-    for word in text.split():
-
-        char[word] = char.get(word,0) +1
-
-    return char
-
-  
-
-print(count_char("hello"))
