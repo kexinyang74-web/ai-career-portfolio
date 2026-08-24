@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day11-文件读写.md",
+                "file": "笔记/Day11-自测5题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day11-文件读写"
+              "title": "Day11-自测5题"
             }
           }
         ],
@@ -216,6 +216,11 @@
   },
   "active": "acae1562b9e635b6",
   "lastOpenFiles": [
+    "笔记/Python语法速查卡.md",
+    "笔记/Day11-自测5题.md",
+    "笔记/Day11-文件读写.md",
+    "projects/python-practice/day11/scores.csv",
+    "projects/python-practice/day11/05_csv_io.py.tmp.2656.f515ba877ea7",
     "projects/python-practice/day11/05_csv_io.py",
     "projects/python-practice/day11/04_read_json.py.tmp.2656.b07ebcf19718",
     "projects/python-practice/day11/04_read_json.py",
@@ -224,13 +229,8 @@
     "projects/python-practice/day11/03_write_json.py.tmp.2656.05f4e12b7283",
     "projects/python-practice/day11/03_write_json.py.tmp.2656.16e9ca014ece",
     "projects/python-practice/day11/03_write_json.py",
-    "fruits2.txt",
-    "fruits.txt",
-    "projects/python-practice/day11/02_write_txt.py",
-    "笔记/Day11-自测5题.md",
     "笔记/Day1-岗位JD调研.md",
     "学习日志/2026-08-22-Day10-学习日志.md",
-    "笔记/Python语法速查卡.md",
     "笔记/Day10-自测5题-批改版.md",
     "笔记/命令速查卡.md",
     "笔记/Day10-自测5题.md",
