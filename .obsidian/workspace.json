@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day11-自测5题.md",
+                "file": "笔记/Day12-异常处理与日志.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day11-自测5题"
+              "title": "Day12-异常处理与日志"
             }
           }
         ],
@@ -216,25 +216,27 @@
   },
   "active": "acae1562b9e635b6",
   "lastOpenFiles": [
+    "projects/python-practice/day12/tempCodeRunnerFile.py",
+    "projects/python-practice/day12/01_exception.py",
+    "projects/python-practice/day12",
+    "笔记/Day11-自测5题.md",
+    "笔记/Day11-自测5题-批改版.md",
+    "笔记/Day12-异常处理与日志.md",
+    "笔记/Day12-自测5题.md",
+    "笔记/Day12-自测5题.md.tmp.2656.b15b9e2690c4",
+    "笔记/Python语法速查卡.md",
+    "笔记/Day11-文件读写.md",
+    "笔记/Day12-异常处理与日志.md.tmp.2656.256576d8c923",
+    "笔记/Day10-自测5题-批改版.md",
+    "笔记/命令速查卡.md",
     "当前状态.md.tmp.2656.072375d3d5c7",
     "plan/第2周-进度追踪.md.tmp.2656.e5cd57b40fa3",
     "当前状态.md.tmp.2656.13d0ec0b33a4",
     "学习日志/2026-08-23-Day11-学习日志.md.tmp.2656.db7a2c6bbaad",
     "学习日志/2026-08-23-Day11-学习日志.md.tmp.2656.c33c0ad22123",
-    "笔记/Day11-自测5题-批改版.md",
-    "笔记/Python语法速查卡.md",
-    "笔记/Day11-自测5题.md",
-    "笔记/Day11-文件读写.md",
     "projects/python-practice/day11/scores.csv",
-    "projects/python-practice/day11/05_csv_io.py.tmp.2656.f515ba877ea7",
-    "projects/python-practice/day11/05_csv_io.py",
-    "projects/python-practice/day11/04_read_json.py.tmp.2656.b07ebcf19718",
-    "projects/python-practice/day11/04_read_json.py",
-    "user.json",
     "笔记/Day1-岗位JD调研.md",
     "学习日志/2026-08-22-Day10-学习日志.md",
-    "笔记/Day10-自测5题-批改版.md",
-    "笔记/命令速查卡.md",
     "笔记/Day10-自测5题.md",
     "笔记/Day10-容器与数据结构.md",
     "plan/01-24周执行计划.md",
@@ -250,8 +252,6 @@
     "plan/第2周-定稿版.md",
     "plan/第1周-定稿版.md",
     "plan/第1周-进度追踪.md",
-    "plan/05-作品三件套目标.md",
-    "plan/04-进度追踪表.md",
     "个人作品集网站_项目/public/avatar.jpg",
     "个人作品集网站_项目/dist/avatar.jpg"
   ]
