@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day12-异常处理与日志.md",
+                "file": "学习日志/2026-08-25-Day12-学习日志.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day12-异常处理与日志"
+              "title": "2026-08-25-Day12-学习日志"
             }
           },
           {
@@ -230,12 +230,15 @@
   },
   "active": "acae1562b9e635b6",
   "lastOpenFiles": [
+    "projects/python-practice/day11/leetcode_26.py",
+    "projects/python-practice/day11/leetcode_27.py",
+    "学习日志/2026-08-19-Day1学习日志.md",
     "笔记/Day12-自测5题-批改版.md",
+    "笔记/Day12-异常处理与日志.md",
     "笔记/命令速查卡.md",
     "笔记/Python语法速查卡.md",
     "笔记/Day12-自测5题.md",
     "笔记/Day12-自测5题-批改版.md.tmp.11204.87890d852f89",
-    "笔记/Day12-异常处理与日志.md",
     "projects/python-practice/day12/03_raise.py.tmp.11204.41ec1030b870",
     "projects/python-practice/day12/02_try_else_finally.py.tmp.11204.cd1406b6f343",
     "projects/python-practice/day12/01_exception.py.tmp.11204.4ddb3fb00dcf",
@@ -244,7 +247,6 @@
     "projects/python-practice/day12/05_read_json_guarded.py.tmp.11204.77664e30182a",
     "projects/python-practice/day12/05_read_json_guarded.py",
     "app.log",
-    "projects/python-practice/day12/app.log",
     "学习日志/2026-08-23-Day11-学习日志.md",
     "笔记/Day11-文件读写.md",
     "笔记/Day11-自测5题.md",
@@ -264,8 +266,6 @@
     "templates/面试题记录模板.md",
     "templates/简历项目描述模板.md",
     "templates/岗位JD调研模板.md",
-    "plan/第2周-定稿版.md",
-    "plan/第1周-定稿版.md",
     "个人作品集网站_项目/public/avatar.jpg",
     "个人作品集网站_项目/dist/avatar.jpg"
   ]
