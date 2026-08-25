@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day11-文件读写.md",
+                "file": "笔记/Day12-异常处理与日志.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day11-文件读写"
+              "title": "Day12-异常处理与日志"
             }
           }
         ],
@@ -216,26 +216,27 @@
   },
   "active": "acae1562b9e635b6",
   "lastOpenFiles": [
+    "projects/python-practice/day12/03_raise.py.tmp.11204.41ec1030b870",
+    "projects/python-practice/day12/02_try_else_finally.py.tmp.11204.cd1406b6f343",
+    "projects/python-practice/day12/01_exception.py.tmp.11204.4ddb3fb00dcf",
+    "projects/python-practice/day12/04_loggong.py.tmp.11204.fadc0f56ca69",
+    "projects/python-practice/day12/user.json",
+    "projects/python-practice/day12/05_read_json_guarded.py.tmp.11204.77664e30182a",
+    "projects/python-practice/day12/05_read_json_guarded.py",
+    "app.log",
+    "projects/python-practice/day12/app.log",
+    "projects/python-practice/day12/tempCodeRunnerFile.py",
+    "projects/python-practice/day12/04_loggong.py",
+    "笔记/Day12-自测5题.md",
+    "学习日志/2026-08-23-Day11-学习日志.md",
+    "笔记/Day11-文件读写.md",
     "笔记/Day11-自测5题.md",
     "笔记/Day11-自测5题-批改版.md",
     "笔记/Day12-异常处理与日志.md",
-    "笔记/Day12-自测5题.md",
     "笔记/Python语法速查卡.md",
     "plan/第2周-进度追踪.md",
-    "学习日志/2026-08-23-Day11-学习日志.md",
-    "projects/python-practice/day12/03_raise.py",
-    "projects/python-practice/day12/02_try_else_finally.py",
-    "projects/python-practice/day12/tempCodeRunnerFile.py",
-    "projects/python-practice/day12/01_exception.py",
-    "projects/python-practice/day12",
-    "笔记/Day12-自测5题.md.tmp.2656.b15b9e2690c4",
-    "笔记/Day11-文件读写.md",
-    "笔记/Day12-异常处理与日志.md.tmp.2656.256576d8c923",
     "笔记/Day10-自测5题-批改版.md",
     "笔记/命令速查卡.md",
-    "当前状态.md.tmp.2656.072375d3d5c7",
-    "plan/第2周-进度追踪.md.tmp.2656.e5cd57b40fa3",
-    "当前状态.md.tmp.2656.13d0ec0b33a4",
     "笔记/Day1-岗位JD调研.md",
     "学习日志/2026-08-22-Day10-学习日志.md",
     "笔记/Day10-自测5题.md",
@@ -251,7 +252,6 @@
     "templates/岗位JD调研模板.md",
     "plan/第2周-定稿版.md",
     "plan/第1周-定稿版.md",
-    "plan/第1周-进度追踪.md",
     "个人作品集网站_项目/public/avatar.jpg",
     "个人作品集网站_项目/dist/avatar.jpg"
   ]
