@@ -1,9 +1,0 @@
-{
-  "name": "小明",
-  "age": 20,
-  "skills": [
-    "python",
-    "Git"
-  ],
-  "is_active": true
-}
