@@ -6,9 +6,14 @@
 # 解释：输入数组表示数字 123。
 # 加 1 后得到 123 + 1 = 124。
 # 因此，结果应该是 [1,2,4]。
+class Solution:
+    def plusOne(self, digits): 
+        for i in range(len(digits)-1, -1, -1):
+            if digits[i] == 9:
+                digits[i] = 0
+            else:
+                digits[i] += 1
+                return digits
+        return [1] + digits
 
-def plusOne(digits: List[int]) -> List[int]:
-    digits = [str(digit) for digit in digits]
-    digits = int("".join(digits)) + 1
-    digits = [int(digit) for digit in str(digits)]
-    return digits
+print(Solution().plusOne([1,2,3]))
