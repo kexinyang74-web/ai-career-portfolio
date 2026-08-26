@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day13-小脚本1-批量整理文件.md",
+                "file": "笔记/Day13-检查点自测5题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day13-小脚本1-批量整理文件"
+              "title": "Day13-检查点自测5题"
             }
           },
           {
@@ -230,17 +230,24 @@
   },
   "active": "acae1562b9e635b6",
   "lastOpenFiles": [
+    "学习日志/2026-08-26-Day13-学习日志.md",
+    "学习日志/2026-08-26-Day13-学习日志.md.tmp.34148.325c35917969",
+    "学习日志/2026-08-25-Day12-学习日志.md.tmp.34148.0af8a620ca22",
+    "学习日志/2026-08-25-Day12-学习日志.md.tmp.34148.f24828e33612",
+    "学习日志/2026-08-23-Day11-学习日志.md.tmp.34148.cf67e4a63cb7",
+    "学习日志/2026-08-23-Day11-学习日志.md.tmp.34148.ea0c26a15ee5",
+    "笔记/Day13-小脚本1-批量整理文件.md",
+    "学习日志/2026-08-25-Day12-学习日志.md",
+    "学习日志/2026-08-23-Day11-学习日志.md",
+    "笔记/Day13-检查点自测5题.md",
+    "笔记/Python语法速查卡.md",
+    "笔记/Day12-自测5题-批改版.md",
+    "projects/python-practice/day13/leetcode_136.py",
+    "projects/python-practice/day13/leetcode_283.py",
+    "projects/python-practice/day13/leetcode_283",
     "projects/python-practice/day13/README.md",
     "projects/python-practice/day13/README.md.tmp.34148.077627b0169a",
     "projects/python-practice/day13/06_dry_run.py.tmp.34148.15abfb14a937",
-    "projects/python-practice/day13/06_dry_run.py",
-    "file_organize.log",
-    "projects/python-practice/day13/05_final.py",
-    "test_files/视频/01_视频素材.mp4.mp4",
-    "test_files/文档/04_项目文档.docx.docx",
-    "test_files/文档/03_报表.pdf.pdf",
-    "test_files/文档/02_学习笔记.txt.txt",
-    "test_files/文档/01_会议记录.pdf.pdf",
     "test_files/图片/03_风景照.jpg.jpg",
     "test_files/图片/02_照片备份.png.png",
     "test_files/图片/01_桌面截图.png.png",
@@ -250,15 +257,10 @@
     "test_files/桌面截图.png",
     "test_files/照片备份.png",
     "test_files/风景照.jpg",
-    "学习日志/2026-08-25-Day12-学习日志.md",
-    "笔记/Day13-小脚本1-批量整理文件.md",
-    "笔记/Day12-自测5题-批改版.md",
     "学习日志/2026-08-19-Day1学习日志.md",
     "笔记/Day12-异常处理与日志.md",
     "笔记/命令速查卡.md",
-    "笔记/Python语法速查卡.md",
     "笔记/Day12-自测5题.md",
-    "学习日志/2026-08-23-Day11-学习日志.md",
     "笔记/Day11-文件读写.md",
     "笔记/Day11-自测5题.md",
     "笔记/Day11-自测5题-批改版.md",
@@ -273,8 +275,6 @@
     "AI应用开发岗位要求.md",
     "总览看板.md",
     "当前状态.md",
-    "templates/学习日志模板.md",
-    "templates/面试题记录模板.md",
     "个人作品集网站_项目/public/avatar.jpg"
   ]
 }
