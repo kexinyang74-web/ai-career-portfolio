@@ -14,7 +14,7 @@ RULES = {
 }
 
 for file in folder.rglob("*"):
-    if file.is_file():
+    if not file.is_file():
         continue
     
     target_dir = RULES.get(file.suffix, "其他")
