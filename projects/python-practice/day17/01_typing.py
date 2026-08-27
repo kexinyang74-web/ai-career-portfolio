@@ -16,11 +16,17 @@ print(add("a", "b"))      # 不会报错！只是把字符串拼起来了（这�
 # ---- 练习 1：写一个平均分函数，带注解 ----
 # 要求：参数是 分数列表: list[int]，返回值是 float
 # def 平均分(分数列表: list[int]) -> float:
-#     ...
 
+def 平均分(分数列表: list[int]) -> float:
+    return sum(分数列表) / len(分数列表)
 
 # ---- 练习 2：给奶茶类加注解 ----
 # 把下面这个类补上类型注解（口味: str、温度: str、甜度: int = 3）
 # class 奶茶:
 #     def __init__(self, 口味, 温度, 甜度=3):
 #         ...
+class 奶茶:
+    def __init__(self, 口味: str, 温度: str,甜度: int = 3) -> None:
+        self.口味 = 口味
+        self.温度 = 温度
+        self.甜度 = 甜度

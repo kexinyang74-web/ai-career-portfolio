@@ -3,11 +3,14 @@
 # 最常用的 5 条：4 空格缩进 / 函数名小写+下划线 / 类名大驼峰 / 函数之间空 2 行 / 注释 # 后加空格
 
 # ❌ 反面教材：能跑但难看
-def calc(x,y):
-  result=x+y
-  return result
+def calc(x, y):
+    result = x + y
+    return result
+
+
 def show():
-  print(calc(1,2))
+    print(calc(1, 2))
+
 
 # ✅ 正面教材：符合 PEP 8（对比着看差在哪）
 def calc(x: int, y: int) -> int:
@@ -17,5 +20,6 @@ def calc(x: int, y: int) -> int:
 
 def show() -> None:
     print(calc(1, 2))
+
 
 # 试一下：光标停在反面教材里，按 Shift + Alt + F，看 VS Code 自动把它排版成什么样
