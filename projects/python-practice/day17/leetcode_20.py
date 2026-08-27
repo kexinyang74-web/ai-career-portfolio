@@ -16,6 +16,19 @@
 # 输入：s = "{[]}"      → True
 
 class Solution:
-    def isValid(self, s: str) -> bool:
-        # 你的代码写在这里
-        pass
+    def isValid(self, s: str) -> bool:                      # 定义一个方法，参数是字符串 s，返回值是布尔值
+        stack = []                                         # 定义一个栈，用于存储左括号
+        for char in s:                                     # 遍历字符串 s           # 如果字符是左括号，则入栈      # 如果字符是右括号，则出栈  
+            if char in "({[":                              # 如果字符是左括号，则入栈
+                stack.append(char)                         # 将字符入栈
+            elif char in ")}]":                            # 如果字符是右括号，则出栈               
+                if not stack:                            # 如果栈为空，则返回 False
+                    return False                            # 如果栈为空，则返回 False
+                top = stack.pop()                        # 如果栈不为空，则出栈
+                if char == ")" and top != "(":            # 如果右括号和左括号不匹配，则返回 False
+                    return False                            # 如果右括号和左括号不匹配，则返回 False
+                if char == "}" and top != "{":            # 如果右括号和左括号不匹配，则返回 False
+                    return False                            # 如果右括号和左括号不匹配，则返回 False
+                if char == "]" and top != "[":            # 如果右括号和左括号不匹配，则返回 False
+                    return False                            # 如果右括号和左括号不匹配，则返回 False
+        return not stack                               # 如果栈为空，则返回 True
