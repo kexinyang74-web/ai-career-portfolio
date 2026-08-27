@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "plan/02-学习资源清单.md",
+                "file": "笔记/Day17-类型注解与模块.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-学习资源清单"
+              "title": "Day17-类型注解与模块"
             }
           },
           {
@@ -230,6 +230,12 @@
   },
   "active": "acae1562b9e635b6",
   "lastOpenFiles": [
+    "projects/python-practice/day17/leetcode_20.py",
+    "projects/python-practice/day17/leetcode_20.py.tmp.23540.92b17f5ccc72",
+    "projects/python-practice/day17/__pycache__/my_shop.cpython-313.pyc",
+    "projects/python-practice/day17/__pycache__",
+    "projects/python-practice/day17/main.py",
+    "plan/02-学习资源清单.md",
     "plan/01-24周执行计划.md",
     "笔记/Day17-类型注解与模块.md",
     "projects/python-practice/day17/my_shop.py",
@@ -239,10 +245,6 @@
     "projects/python-practice/day16/leetcode_121.py.tmp.24720.cc1350cc0cf3",
     "projects/python-practice/day16/leetcode_121.py",
     "projects/python-practice/day16/leetcode_58.py",
-    "projects/python-practice/day16/04_dataclass.py.tmp.24720.2337291112ab",
-    "projects/python-practice/day16/04_dataclass.py.tmp.24720.9f865df5da5f",
-    "projects/python-practice/day16/04_dataclass.py",
-    "projects/python-practice/day16/03_magic.py",
     "笔记/Python语法速查卡.md",
     "笔记/Day13-小脚本1-批量整理文件.md",
     "笔记/Day15-面向对象基础.md",
@@ -273,8 +275,6 @@
     "笔记/Day11-文件读写.md",
     "笔记/Day11-自测5题.md",
     "笔记/Day11-自测5题-批改版.md",
-    "plan/第2周-进度追踪.md",
-    "笔记/Day10-自测5题-批改版.md",
     "个人作品集网站_项目/public/avatar.jpg"
   ]
 }
