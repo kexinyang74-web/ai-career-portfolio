@@ -5,7 +5,7 @@
 import requests
 
 try:
-    r = requests.get("https://httpbin.org/delay/5", timeout=2)
+    r = requests.get("https://httpbin.org/delay/5", timeout=10)
     r.raise_for_status()          # 状态码 4xx/5xx 会抛 HTTPError
     print("成功:", r.status_code)
 except requests.exceptions.Timeout:
