@@ -23,12 +23,20 @@ class Solution:
                 stack.append(char)                         # 将字符入栈
             elif char in ")}]":                            # 如果字符是右括号，则出栈               
                 if not stack:                            # 如果栈为空，则返回 False
-                    return False                            # 如果栈为空，则返回 False
+                    return False                           
                 top = stack.pop()                        # 如果栈不为空，则出栈
                 if char == ")" and top != "(":            # 如果右括号和左括号不匹配，则返回 False
-                    return False                            # 如果右括号和左括号不匹配，则返回 False
+                    return False                            
                 if char == "}" and top != "{":            # 如果右括号和左括号不匹配，则返回 False
-                    return False                            # 如果右括号和左括号不匹配，则返回 False
+                    return False                            
                 if char == "]" and top != "[":            # 如果右括号和左括号不匹配，则返回 False
-                    return False                            # 如果右括号和左括号不匹配，则返回 False
+                    return False                            
         return not stack                               # 如果栈为空，则返回 True
+        
+if __name__ == "__main__":
+    solution = Solution()
+    print(solution.isValid("()"))
+    print(solution.isValid("()[]{}"))
+    print(solution.isValid("(]"))
+    print(solution.isValid("([)]"))
+    print(solution.isValid("{[]}"))
