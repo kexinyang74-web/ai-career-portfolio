@@ -12,13 +12,15 @@ print()
 
 # 再自定义 headers 发一次
 headers = {
-    "User-Agent": "我的学习脚本/1.0",
+    "User-Agent": "YangKexin-AI-Learner/1.0",
     "Accept": "application/json",
+    "X-My-Marker": "day19",
 }
+
 
 r2 = requests.get("https://httpbin.org/headers", headers=headers)
 print("自定义后服务器收到的 User-Agent：")
-print(r2.json()["headers"]["User-Agent"])
+print(r2.json()["headers"])
 
 # ============ 练习 ============
 # 1. 把 User-Agent 改成你自己的代号（比如 "转行AI训练中/1.0"），运行看效果。

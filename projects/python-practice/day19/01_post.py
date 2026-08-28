@@ -5,13 +5,13 @@
 import requests
 
 # 方式一：data= 送表单格式（像填网页表单）
-r1 = requests.post("https://httpbin.org/post", data={"名字": "小明", "年龄": 18})
+r1 = requests.post("https://httpbin.org/post", data={"名字": "杨可新", "年龄": 23})
 print("data= 的返回：")
 print(r1.json())
 print()
 
 # 方式二：json= 送 JSON 格式（调 API 最常用！）
-r2 = requests.post("https://httpbin.org/post", json={"名字": "小明", "年龄": 18})
+r2 = requests.post("https://httpbin.org/post", json={"名字": "杨可新", "年龄": 23})
 print("json= 的返回：")
 print(r2.json())
 

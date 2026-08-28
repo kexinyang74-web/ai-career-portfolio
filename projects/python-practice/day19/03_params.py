@@ -11,7 +11,7 @@ print(r1.json()["args"])
 print()
 
 # 带参数：等价于 GET https://httpbin.org/get?城市=北京&单位=摄氏度
-params = {"城市": "北京", "单位": "摄氏度"}
+params = {"城市": "上海", "天气": "晴", "温度": "35度"}
 r2 = requests.get("https://httpbin.org/get", params=params)
 print("带参数时服务器收到的 args：")
 print(r2.json()["args"])
