@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day23-终端与shell基础.md",
+                "file": "学习日志/2026-09-02-Day24-学习日志.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day23-终端与shell基础"
+              "title": "2026-09-02-Day24-学习日志"
             }
           }
         ]
@@ -221,20 +221,20 @@
   },
   "active": "0479cf7fa7d3a1da",
   "lastOpenFiles": [
+    "笔记/Day23-终端与shell基础.md",
+    "当前状态.md.tmp.40572.c64199f5dc3e",
+    "当前状态.md.tmp.40572.eb4aa1086877",
+    "projects/python-practice/day24/01_debug_me.py",
+    "projects/python-practice/day24/01_debug_me.py.tmp.40572.0c9b32a955d3",
+    "projects/python-practice/day24",
+    "学习日志/2026-09-02-Day24-学习日志.md",
+    "学习日志/2026-09-02-Day24-学习日志.md.tmp.40572.f8a422354a1f",
     "projects/python-practice/day23/04-文件清单.txt",
     "projects/python-practice/day23/03-report2.txt",
     "projects/python-practice/day23/02-report1副本.txt",
     "projects/python-practice/day23/01-report1.txt",
-    "projects/python-practice/day23/文件清单.txt",
     "学习日志/2026-09-02-Day23-学习日志.md",
-    "笔记/Day23-终端与shell基础.md",
-    "projects/python-practice/day23/归档/temp.log",
-    "projects/python-practice/day23/归档",
-    "projects/python-practice/day23/report1副本.txt",
-    "projects/python-practice/day23/backup.txt",
-    "projects/python-practice/day23/temp.log",
     "projects/python-practice/day23/notes.md",
-    "projects/python-practice/day23/report2.txt",
     "笔记/Day22-虚拟环境与依赖管理.md",
     "projects/python-practice/notes.md",
     "学习日志/2026-09-02-Day22-学习日志.md",
@@ -256,7 +256,6 @@
     "学习日志/2026-08-27-Day19-学习日志.md",
     "plan/第3周-进度追踪.md",
     "sdd/README.md",
-    "笔记/Day12-异常处理与日志.md",
     "test_files/图片/03_风景照.jpg.jpg",
     "test_files/图片/02_照片备份.png.png",
     "test_files/图片/01_桌面截图.png.png",
