@@ -11,13 +11,13 @@
 
 ## 二、venv 实操（Windows PowerShell）
 
-| 操作 | 命令 | 说明 |
-|---|---|---|
-| 创建 | `python -m venv .venv` | 在当前目录生成 .venv 文件夹 |
-| 激活 | `.\.venv\Scripts\Activate.ps1` | 成功后命令行前面出现 `(.venv)` |
-| 查看环境 | `python 01_where_am_i.py` | 打印 `sys.executable`，路径带 `.venv` 就是在抽屉里 |
-| 退出 | `deactivate` | 回到全局 |
-| 报错处理 | `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` | 激活时"禁止运行脚本"就先用它 |
+| 操作   | 命令                                                                     | 说明                                     |
+| ---- | ---------------------------------------------------------------------- | -------------------------------------- |
+| 创建   | `python -m venv .venv`                                                 | 在当前目录生成 .venv 文件夹                      |
+| 激活   | `.\.venv\Scripts\Activate.ps1`                                         | 成功后命令行前面出现 `(.venv)`                   |
+| 查看环境 | `python 01_where_am_i.py`                                              | 打印 `sys.executable`，路径带 `.venv` 就是在抽屉里 |
+| 退出   | `deactivate`                                                           | 回到全局                                   |
+| 报错处理 | `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` | 激活时"禁止运行脚本"就先用它                        |
 
 **坑（今天实测）**：
 1. **venv 必须建在项目文件夹里**——别人 clone 后进项目就能激活。建错在根目录要删掉重建
