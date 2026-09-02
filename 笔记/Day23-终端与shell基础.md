@@ -12,17 +12,18 @@
 
 ## 二、命令全家桶（Windows PowerShell）
 
-| 操作 | 命令 | 别名 | 说明 |
-|---|---|---|---|
-| 我在哪 | `Get-Location` | pwd | 打印当前目录 |
-| 换目录 | `Set-Location` | cd | 相对/绝对路径都行 |
-| 列出 | `Get-ChildItem` | ls / dir | 目录和文件都列 |
-| 复制 | `Copy-Item` | cp | 留原件 |
-| 移动 | `Move-Item` | mv | 搬走不留 |
-| 改名 | `Rename-Item` | ren | 换名字 |
-| 新建 | `New-Item -ItemType Directory` | mkdir | 目录/文件都能建（一次多个） |
-| 写内容 | `Set-Content` | - | 写文件（覆盖） |
-| 读内容 | `Get-Content` | cat / type | 读文件 |
+| 操作   | 命令                             | 别名         | 说明           |
+| ---- | ------------------------------ | ---------- | ------------ |
+| 我在哪  | `Get-Location`                 | pwd        | 打印当前目录       |
+| 换目录  | `Set-Location`                 | cd         | 相对/绝对路径都行    |
+| 列出   | `Get-ChildItem`                | ls / dir   | 目录和文件都列      |
+| 复制   | `Copy-Item`                    | cp         | 留原件          |
+| 移动   | `Move-Item`                    | mv         | 搬走不留         |
+| 改名   | `Rename-Item`                  | ren        | 换名字          |
+| 新建   | `New-Item -ItemType Directory` | mkdir      | 主要建文件夹（支持多个） |
+| 写内容  | `Set-Content`                  | -          | 写文件（覆盖）      |
+| 读内容  | `Get-Content`                  | cat / type | 读文件          |
+| 新建文件 | New-Item                       | ni         | 可以建文件        |
 
 **三兄弟对比**：Copy 留原件 / Move 不留 / Rename 换名牌。路径末尾 `\` 表示"这是个文件夹"。
 
