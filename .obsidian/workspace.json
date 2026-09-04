@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习日志/2026-09-03-Day27-学习日志.md",
+                "file": "笔记/Day27-Excel与小脚本3收官.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-03-Day27-学习日志"
+              "title": "Day27-Excel与小脚本3收官"
             }
           }
         ]
@@ -221,6 +221,10 @@
   },
   "active": "5632e320d475612e",
   "lastOpenFiles": [
+    "笔记/Day27-检查点自测5题.md",
+    "笔记/Day27-Excel与小脚本3收官.md",
+    "学习日志/2026-09-03-Day27-学习日志.md",
+    "笔记/Day26-CSV数据清洗.md",
     "学习日志/2026-09-03-Day26-学习日志.md",
     "projects/python-practice/day26/leetcode_350.py",
     "projects/python-practice/day26/leetcode_125.py",
@@ -233,8 +237,6 @@
     "projects/python-practice/day26/main.py.tmp.10568.e87689bdfc12",
     "projects/python-practice/day26/test_loader.py",
     "projects/python-practice/day26/test_loader.py.tmp.10568.56bee7b31eb6",
-    "学习日志/2026-09-03-Day27-学习日志.md",
-    "笔记/Day26-CSV数据清洗.md",
     "笔记/Day24-VSCode调试器.md",
     "plan/01-24周执行计划.md",
     "学习日志/2026-09-02-Day25-学习日志.md",
@@ -255,7 +257,6 @@
     "plan/第4周-定稿版.md",
     "笔记/Day13-检查点自测5题.md",
     "笔记/Day13-检查点自测5题-批改版.md",
-    "projects/python-practice/day20/README.md",
     "test_files/图片/03_风景照.jpg.jpg",
     "test_files/图片/02_照片备份.png.png",
     "test_files/图片/01_桌面截图.png.png",
