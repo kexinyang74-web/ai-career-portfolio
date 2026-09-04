@@ -1,6 +1,6 @@
 # 项目一：行业场景 AI 助手（命令行版）
 
-> 面向 **XX 行业** 的 AI 应用 ——（在这里写你的行业定位语，例如：面向电商运营的商品文案助手）
+> 面向 **自媒体创作者（B站）** 的 AI 应用 —— 选题与脚本助手
 
 基于大模型 API 的多轮对话助手，支持流式输出、行业人设、对话保存。
 默认对接 DeepSeek API，可切换到任意 OpenAI 兼容接口。
@@ -16,7 +16,7 @@
 ## 快速开始（Windows）
 
 ```powershell
-cd outputs/projects/project-1-ai-assistant
+cd C:\Users\Administrator\Desktop\学习安排\projects\project-1-ai-assistant
 python -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
