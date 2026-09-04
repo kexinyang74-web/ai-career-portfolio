@@ -4,11 +4,12 @@
 
 ## 一、两处必须一起改
 
-| | 非流式（Day 30） | 流式（今天） |
-|---|---|---|
-| body | `"stream": false` | `"stream": true` |
-| requests | `requests.post(...)` | **还要** `stream=True`（让响应不要一次读完） |
-| 取字 | `data["choices"][0]["message"]["content"]` | 每一片 `delta.content`，拼到 `[DONE]` |
+|          | 非流式（Day 30）                                | 流式（今天）                          |
+| -------- | ------------------------------------------ | ------------------------------- |
+| body     | `"stream": false`                          | `"stream": true`                |
+| requests | `requests.post(...)`                       | **还要** `stream=True`（让响应不要一次读完） |
+| 取字       | `data["choices"][0]["message"]["content"]` | 每一片 `delta.content`，拼到 `[DONE]` |
+
 
 只改 JSON 里的 `stream`、忘了 `requests.post(..., stream=True)`，有的环境下会卡住或看起来像没输出。
 
