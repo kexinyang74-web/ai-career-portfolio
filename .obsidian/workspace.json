@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day32-流式SSE.md",
+                "file": "笔记/Day33-项目一骨架跑通.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day32-流式SSE"
+              "title": "Day33-项目一骨架跑通"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day32-自测5题.md",
+                "file": "笔记/Day33-自测5题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day32-自测5题"
+              "title": "Day33-自测5题"
             }
           }
         ]
@@ -219,13 +219,17 @@
       "bases:新建数据库": false
     }
   },
-  "active": "38d3ee9c1fb6c76d",
+  "active": "959543ced8451bc0",
   "lastOpenFiles": [
-    "笔记/Day32-流式SSE.md",
+    "笔记/Day33-自测5题.md",
     "笔记/Day32-自测5题.md",
+    "笔记/Day32-流式SSE.md",
+    "笔记/Day33-项目一骨架跑通.md",
+    "学习日志/2026-09-04-Day33-学习日志.md",
+    "学习日志/2026-09-04-Day32-学习日志.md",
+    "笔记/Day32-自测5题-批改版.md",
     "笔记/Day31-自测5题-批改版.md",
     "学习日志/2026-09-04-Day31-学习日志.md",
-    "学习日志/2026-09-04-Day32-学习日志.md",
     "projects/python-practice/day32/01_stream.py",
     "projects/python-practice/day32/requirements.txt",
     "projects/python-practice/day32",
@@ -253,10 +257,6 @@
     "plan/第4周-进度追踪.md",
     "笔记/Day27-检查点自测5题-批改版.md",
     "笔记/Day27-检查点自测5题.md",
-    "笔记/Day26-CSV数据清洗.md",
-    "学习日志/2026-09-03-Day26-学习日志.md",
-    "projects/python-practice/day26/README.md",
-    "笔记/Day24-VSCode调试器.md",
     "test_files/图片/03_风景照.jpg.jpg",
     "test_files/图片/02_照片备份.png.png",
     "test_files/图片/01_桌面截图.png.png",
