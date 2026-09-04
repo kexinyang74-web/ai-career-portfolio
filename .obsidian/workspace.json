@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day29-LLM核心概念.md",
+                "file": "学习日志/2026-09-04-Day31-学习日志.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day29-LLM核心概念"
+              "title": "2026-09-04-Day31-学习日志"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day30-单轮ChatCompletions.md",
+                "file": "笔记/Day31-自测5题-批改版.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day30-单轮ChatCompletions"
+              "title": "Day31-自测5题-批改版"
             }
           }
         ]
@@ -221,11 +221,18 @@
   },
   "active": "959543ced8451bc0",
   "lastOpenFiles": [
-    "学习日志/2026-09-04-Day30-学习日志.md",
-    "笔记/Day30-单轮ChatCompletions.md",
-    "笔记/Day30-自测5题.md",
+    "笔记/Day31-自测5题.md",
+    "笔记/Day31-自测5题-批改版.md",
+    "笔记/Day31-多轮messages.md",
     "笔记/Day30-自测5题-批改版.md",
+    "笔记/Day30-单轮ChatCompletions.md",
     "笔记/Day29-LLM核心概念.md",
+    "学习日志/2026-09-04-Day31-学习日志.md",
+    "projects/python-practice/day31/requirements.txt",
+    "projects/python-practice/day31/01_multi_turn.py",
+    "projects/python-practice/day31",
+    "学习日志/2026-09-04-Day30-学习日志.md",
+    "笔记/Day30-自测5题.md",
     "笔记/Day29-自测5题-批改版.md",
     "projects/python-practice/day30/requirements.txt",
     "projects/python-practice/day30/01_single_turn.py",
@@ -246,17 +253,10 @@
     "projects/python-practice/day26/leetcode_350.py",
     "projects/python-practice/day26/leetcode_125.py",
     "projects/python-practice/day26/README.md",
-    "projects/python-practice/day26/__pycache__/test_loader.cpython-313-pytest-9.1.1.pyc",
-    "projects/python-practice/day26/__pycache__/main.cpython-313.pyc",
-    "projects/python-practice/day26/销售数据_干净.xlsx",
     "笔记/Day24-VSCode调试器.md",
     "plan/01-24周执行计划.md",
     "学习日志/2026-09-02-Day25-学习日志.md",
     "笔记/Day25-pytest测试基础.md",
-    "学习日志/2026-09-02-Day24-学习日志.md",
-    "笔记/Day23-终端与shell基础.md",
-    "学习日志/2026-09-02-Day23-学习日志.md",
-    "projects/python-practice/day23/notes.md",
     "test_files/图片/03_风景照.jpg.jpg",
     "test_files/图片/02_照片备份.png.png",
     "test_files/图片/01_桌面截图.png.png",
