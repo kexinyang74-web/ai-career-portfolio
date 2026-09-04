@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day29-自测5题.md",
+                "file": "笔记/Day30-单轮ChatCompletions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day29-自测5题"
+              "title": "Day30-单轮ChatCompletions"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day29-自测5题-批改版.md",
+                "file": "笔记/Day30-自测5题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day29-自测5题-批改版"
+              "title": "Day30-自测5题"
             }
           }
         ]
@@ -219,14 +219,20 @@
       "bases:新建数据库": false
     }
   },
-  "active": "38d3ee9c1fb6c76d",
+  "active": "959543ced8451bc0",
   "lastOpenFiles": [
-    "笔记/Day29-自测5题.md",
-    "笔记/Day29-自测5题-批改版.md",
+    "笔记/Day30-自测5题.md",
     "笔记/Day29-LLM核心概念.md",
-    "笔记/Day27-Excel与小脚本3收官.md",
+    "笔记/Day30-单轮ChatCompletions.md",
+    "笔记/Day29-自测5题-批改版.md",
+    "学习日志/2026-09-04-Day30-学习日志.md",
+    "projects/python-practice/day30/requirements.txt",
+    "projects/python-practice/day30/01_single_turn.py",
+    "projects/python-practice/day30",
     "学习日志/2026-09-04-Day29-学习日志.md",
     "学习日志/2026-09-03-Day27-学习日志.md",
+    "笔记/Day29-自测5题.md",
+    "笔记/Day27-Excel与小脚本3收官.md",
     "projects/python-practice/day29/01_messages.py",
     "projects/python-practice/day29",
     "plan/第5周-进度追踪.md",
@@ -242,9 +248,6 @@
     "projects/python-practice/day26/__pycache__/test_loader.cpython-313-pytest-9.1.1.pyc",
     "projects/python-practice/day26/__pycache__/main.cpython-313.pyc",
     "projects/python-practice/day26/销售数据_干净.xlsx",
-    "projects/python-practice/day26/__pycache__/loader.cpython-313.pyc",
-    "projects/python-practice/day26/销售数据_脏.xlsx",
-    "projects/python-practice/day26/main.py.tmp.10568.e87689bdfc12",
     "笔记/Day24-VSCode调试器.md",
     "plan/01-24周执行计划.md",
     "学习日志/2026-09-02-Day25-学习日志.md",
@@ -254,9 +257,6 @@
     "学习日志/2026-09-02-Day23-学习日志.md",
     "projects/python-practice/day23/notes.md",
     "笔记/Day22-虚拟环境与依赖管理.md",
-    "projects/python-practice/notes.md",
-    "学习日志/2026-09-02-Day22-学习日志.md",
-    "学习日志/2026-08-29-Day22-学习日志.md",
     "test_files/图片/03_风景照.jpg.jpg",
     "test_files/图片/02_照片备份.png.png",
     "test_files/图片/01_桌面截图.png.png",
