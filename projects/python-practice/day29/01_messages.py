@@ -18,22 +18,22 @@ def 粗算token(text: str) -> int:
     n = 0
     buf = []
     for ch in text:
-        if "\u4e00" <= ch <= "\u9fff":
-            if buf:
-                n += max(1, len("".join(buf)) // 4)
-                buf = []
-            n += 1
-        else:
-            buf.append(ch)
-    if buf:
-        n += max(1, len("".join(buf)) // 4)
-    return n
+        if "\u4e00" <= ch <= "\u9fff": # 判断是否为中文
+            if buf: # 如果buf不为空
+                n += max(1, len("".join(buf)) // 4) # 计算buf中的字符数
+                buf = [] # 清空buf
+            n += 1 # 计数器加1
+        else: # 如果为英文
+            buf.append(ch) # 将字符添加到buf中
+    if buf: # 如果buf不为空
+        n += max(1, len("".join(buf)) // 4) # 计算buf中的字符数
+    return n # 返回计数器
 
 
 payload = {
-    "model": "deepseek-chat",
-    "messages": messages,
-    "temperature": 0.7,
+    "model": "deepseek-chat", 
+    "messages": messages, 
+    "temperature": 0.7, 
     "stream": False,
 }
 
