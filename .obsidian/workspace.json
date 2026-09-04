@@ -6,6 +6,7 @@
       {
         "id": "0f7d018973877915",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "959543ced8451bc0",
@@ -26,6 +27,7 @@
       {
         "id": "8ce6ed794529c591",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "38d3ee9c1fb6c76d",
@@ -219,16 +221,19 @@
       "bases:新建数据库": false
     }
   },
-  "active": "959543ced8451bc0",
+  "active": "38d3ee9c1fb6c76d",
   "lastOpenFiles": [
     "笔记/Day34-人设与第5周收官.md",
-    "笔记/Day33-项目一骨架跑通.md",
+    "plan/第5周-进度追踪.md",
+    "plan/第5周-定稿版.md",
     "学习日志/2026-09-04-Day34-学习日志.md",
+    "笔记/Day34-检查点自测5题-批改版.md",
+    "笔记/Day34-检查点自测5题.md",
+    "笔记/Day33-项目一骨架跑通.md",
     "学习日志/2026-09-04-Day33-学习日志.md",
     "projects/python-practice/day34/leetcode_387.py",
     "projects/python-practice/day34/leetcode_383.py",
     "projects/python-practice/day34",
-    "笔记/Day34-检查点自测5题.md",
     "笔记/Day33-自测5题-批改版.md",
     "笔记/Day33-自测5题.md",
     "projects/project-1-ai-assistant/chat_history.json",
@@ -254,9 +259,6 @@
     "笔记/Day29-自测5题-批改版.md",
     "学习日志/2026-09-04-Day29-学习日志.md",
     "学习日志/2026-09-03-Day27-学习日志.md",
-    "笔记/Day29-自测5题.md",
-    "笔记/Day27-Excel与小脚本3收官.md",
-    "plan/第5周-进度追踪.md",
     "test_files/图片/03_风景照.jpg.jpg",
     "test_files/图片/02_照片备份.png.png",
     "test_files/图片/01_桌面截图.png.png",

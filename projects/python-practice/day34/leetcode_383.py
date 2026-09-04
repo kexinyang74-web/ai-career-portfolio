@@ -7,8 +7,11 @@ magazine 中每个字符只能用一次。
 
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
-        # 你来写：统计 magazine 各字母次数，再逐个减 ransomNote
-        ...
+        for i in ransomNote:
+            if i not in magazine:
+                return False
+            magazine = magazine.replace(i, "", 1) # 将magazine中的i字符替换为空字符串，并只替换第一个出现的字符
+        return True
 
 
 if __name__ == "__main__":

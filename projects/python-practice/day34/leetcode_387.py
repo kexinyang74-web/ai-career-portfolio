@@ -6,8 +6,13 @@
 
 class Solution:
     def firstUniqChar(self, s: str) -> int:
-        # 你来写：先计数，再从左到右找次数为 1 的
-        ...
+        for i in range(len(s)): # 遍历字符串s
+            if s.count(s[i]) == 1: # 如果字符串s中第i个字符只出现一次   
+                return i # 则返回第i个字符的索引
+        return -1 # 如果字符串s中没有不重复的字符，则返回-1
+
+
+
 
 
 if __name__ == "__main__":
