@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day40-系统提示词v1.md",
+                "file": "笔记/Day38-自测5题-批改版.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day40-系统提示词v1"
+              "title": "Day38-自测5题-批改版"
             }
           }
         ]
@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习日志/2026-09-05-Day39-学习日志.md",
+                "file": "笔记/Day41-检查点自测5题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-05-Day39-学习日志"
+              "title": "Day41-检查点自测5题"
             }
           }
         ]
@@ -221,22 +221,29 @@
       "bases:新建数据库": false
     }
   },
-  "active": "959543ced8451bc0",
+  "active": "38d3ee9c1fb6c76d",
   "lastOpenFiles": [
-    "笔记/Day39-自测5题-批改版.md",
-    "学习日志/2026-09-05-Day40-学习日志.md",
-    "笔记/Day40-自测5题.md",
-    "笔记/Day40-系统提示词v1.md",
     "笔记/Day38-自测5题-批改版.md",
-    "笔记/Day39-三版Prompt对比.md",
-    "学习日志/2026-09-05-Day39-学习日志.md",
-    "学习日志/2026-09-05-Day38-学习日志.md",
+    "笔记/Day38-自测5题.md",
+    "笔记/Day41-检查点自测5题.md",
     "笔记/Day39-自测5题.md",
+    "笔记/Day39-自测5题-批改版.md",
+    "笔记/Day40-自测5题.md",
+    "笔记/Day40-自测5题-批改版.md",
+    "笔记/Day36-Prompt四件套.md",
+    "笔记/Day37-自测5题.md",
+    "笔记/Day41-第6周收官.md",
+    "projects/python-practice/day41/leetcode_409.py",
+    "projects/python-practice/day41/leetcode_389.py",
+    "projects/python-practice/day41",
+    "学习日志/2026-09-05-Day41-学习日志.md",
+    "学习日志/2026-09-05-Day40-学习日志.md",
+    "笔记/Day40-系统提示词v1.md",
+    "学习日志/2026-09-05-Day39-学习日志.md",
+    "笔记/Day39-三版Prompt对比.md",
+    "学习日志/2026-09-05-Day38-学习日志.md",
     "笔记/Day37-few-shot与CoT.md",
     "笔记/Day37-自测5题-批改版.md",
-    "笔记/Day37-自测5题.md",
-    "笔记/Day36-Prompt四件套.md",
-    "笔记/Day38-自测5题.md",
     "笔记/Day38-结构化输出.md",
     "学习日志/2026-09-05-Day37-学习日志.md",
     "projects/python-practice/day38/requirements.txt",
@@ -247,18 +254,10 @@
     "笔记/Day36-自测5题.md",
     "笔记/Day34-人设与第5周收官.md",
     "笔记/Day34-检查点自测5题.md",
-    "plan/第6周-进度追踪.md",
-    "plan/第6周-定稿版.md",
-    "学习日志/2026-09-04-Day34-学习日志.md",
-    "plan/第5周-进度追踪.md",
-    "plan/第5周-定稿版.md",
     "projects/python-practice/day34/leetcode_387.py",
     "projects/python-practice/day34/leetcode_383.py",
     "projects/python-practice/day34",
     "projects/project-1-ai-assistant/chat_history.json",
-    "projects/python-practice/day32/01_stream.py",
-    "projects/python-practice/day32/requirements.txt",
-    "projects/python-practice/day32",
     "test_files/图片/03_风景照.jpg.jpg",
     "test_files/图片/02_照片备份.png.png",
     "test_files/图片/01_桌面截图.png.png",
