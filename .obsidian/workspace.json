@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习日志/2026-09-05-Day38-学习日志.md",
+                "file": "笔记/Day39-三版Prompt对比.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-05-Day38-学习日志"
+              "title": "Day39-三版Prompt对比"
             }
           }
         ]
@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day38-自测5题.md",
+                "file": "学习日志/2026-09-05-Day39-学习日志.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day38-自测5题"
+              "title": "2026-09-05-Day39-学习日志"
             }
           }
         ]
@@ -224,16 +224,20 @@
   "active": "38d3ee9c1fb6c76d",
   "lastOpenFiles": [
     "学习日志/2026-09-05-Day38-学习日志.md",
+    "笔记/Day39-自测5题.md",
+    "笔记/Day37-few-shot与CoT.md",
+    "笔记/Day37-自测5题-批改版.md",
+    "笔记/Day37-自测5题.md",
     "笔记/Day36-Prompt四件套.md",
+    "笔记/Day39-三版Prompt对比.md",
     "笔记/Day38-自测5题.md",
+    "学习日志/2026-09-05-Day39-学习日志.md",
+    "笔记/Day38-自测5题-批改版.md",
     "笔记/Day38-结构化输出.md",
     "学习日志/2026-09-05-Day37-学习日志.md",
     "projects/python-practice/day38/requirements.txt",
     "projects/python-practice/day38/01_json_mode.py",
     "projects/python-practice/day38",
-    "笔记/Day37-自测5题-批改版.md",
-    "笔记/Day37-自测5题.md",
-    "笔记/Day37-few-shot与CoT.md",
     "学习日志/2026-09-05-Day36-学习日志.md",
     "笔记/Day36-自测5题-批改版.md",
     "笔记/Day36-自测5题.md",
@@ -251,11 +255,7 @@
     "projects/python-practice/day34/leetcode_383.py",
     "projects/python-practice/day34",
     "笔记/Day33-自测5题-批改版.md",
-    "笔记/Day33-自测5题.md",
     "projects/project-1-ai-assistant/chat_history.json",
-    "笔记/Day32-自测5题.md",
-    "笔记/Day32-流式SSE.md",
-    "学习日志/2026-09-04-Day32-学习日志.md",
     "projects/python-practice/day32/01_stream.py",
     "projects/python-practice/day32/requirements.txt",
     "projects/python-practice/day32",
