@@ -36,7 +36,8 @@ DEEPSEEK_API_KEY=sk-你的密钥
 python main.py
 
 # 单次提问
-python main.py "帮我写一段 XX 行业的新品推广文案"
+python main.py “任务：给[个人读书成长]赛道选5个选题。约束：必须能拍成生活记录和口播，不要心灵鸡汤标题。格式：每条一行，标题---一句话钩子。”
+
 ```
 
 ## 使用示例
@@ -48,7 +49,8 @@ python main.py "帮我写一段 XX 行业的新品推广文案"
 命令：/new 清空对话 ｜ /stream 切换流式 ｜ /save 保存 ｜ /exit 退出
 ====================================================
 
-你 > 帮我分析一下这个月销量下滑可能的原因
+你 > “任务：给[个人读书成长]赛道选5个选题。约束：必须能拍成生活记录和口播，不要心灵鸡汤标题。格式：每条一行，标题---一句话钩子。”
+
 AI > （模型回答）
 ```
 
@@ -69,8 +71,15 @@ project-1-ai-assistant/
 ├─ system_prompt.md   ← 行业人设（编辑这里定制角色）
 ├─ requirements.txt   ← 依赖
 ├─ .env.example       ← 配置模板
-└─ .gitignore
+├─ .gitignore
+└─ `chat_history.json`（本地生成、不进 git）
 ```
+
+## 架构
+
+1. system_prompt.md 启动时读进 system 消息
+2. 交互时 user / assistant 追加进内存 `history`，每次请求整份带上
+3. `/save` 写入 `chat_history.json`；`/new` 只清内存，不读这个文件当下一句的上下文
 
 ## 常见问题
 
@@ -84,4 +93,5 @@ project-1-ai-assistant/
 - 用 FastAPI 包一层 HTTP 接口，做成网页版
 - 加 Function Calling，让助手能查数据、调工具（项目三的雏形）
 - 加对话历史落库、限流、日志
+
 

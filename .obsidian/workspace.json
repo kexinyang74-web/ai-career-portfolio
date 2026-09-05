@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day43-CLI对照规格书.md",
+                "file": "笔记/Day44-改README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day43-CLI对照规格书"
+              "title": "Day44-改README"
             }
           }
         ]
@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day43-自测5题.md",
+                "file": "笔记/Day44-自测5题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day43-自测5题"
+              "title": "Day44-自测5题"
             }
           }
         ]
@@ -223,10 +223,19 @@
   },
   "active": "38d3ee9c1fb6c76d",
   "lastOpenFiles": [
-    "笔记/Day43-CLI对照规格书.md",
-    "笔记/Day43-自测5题.md",
-    "笔记/Day41-检查点自测5题.md",
+    "学习日志/2026-09-05-Day39-学习日志.md",
+    "笔记/Day44-改README.md",
+    "学习日志/2026-09-05-Day40-学习日志.md",
+    "学习日志/2026-09-05-Day41-学习日志.md",
     "学习日志/2026-09-05-Day43-学习日志.md",
+    "学习日志/2026-09-05-Day44-学习日志.md",
+    "笔记/Day40-系统提示词v1.md",
+    "笔记/Day43-CLI对照规格书.md",
+    "笔记/Day44-自测5题.md",
+    "笔记/Day43-自测5题.md",
+    "笔记/Python语法速查卡.md",
+    "笔记/Day43-自测5题-批改版.md",
+    "笔记/Day41-检查点自测5题.md",
     "plan/第6周-进度追踪.md",
     "plan/第7周-进度追踪.md",
     "plan/第7周-定稿版.md",
@@ -240,18 +249,9 @@
     "笔记/Day40-自测5题-批改版.md",
     "笔记/Day36-Prompt四件套.md",
     "笔记/Day37-自测5题.md",
-    "笔记/Day41-第6周收官.md",
     "projects/python-practice/day41/leetcode_409.py",
     "projects/python-practice/day41/leetcode_389.py",
     "projects/python-practice/day41",
-    "学习日志/2026-09-05-Day41-学习日志.md",
-    "学习日志/2026-09-05-Day40-学习日志.md",
-    "笔记/Day40-系统提示词v1.md",
-    "学习日志/2026-09-05-Day39-学习日志.md",
-    "笔记/Day39-三版Prompt对比.md",
-    "学习日志/2026-09-05-Day38-学习日志.md",
-    "笔记/Day37-few-shot与CoT.md",
-    "笔记/Day37-自测5题-批改版.md",
     "projects/python-practice/day38/requirements.txt",
     "projects/python-practice/day38/01_json_mode.py",
     "projects/python-practice/day38",
