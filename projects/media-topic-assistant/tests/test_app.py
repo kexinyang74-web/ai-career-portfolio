@@ -1,10 +1,12 @@
 import json
+import sqlite3
 
 import pytest
 from fastapi.testclient import TestClient
 
 from app import create_app
 from provider import ProviderError
+from store import Store
 
 
 class FakeProvider:
@@ -127,3 +129,40 @@ def test_local_origin_protection(setup):
     c, _, _ = setup
     assert c.post("/api/sessions", headers={"Origin": "https://evil.example"}).status_code == 403
     assert c.get("/api/profile", headers={"Host": "evil.example"}).status_code == 400
+
+
+def test_research_failure_keeps_existing_sources_and_ids(setup):
+    c, p, _ = setup
+    p.research = lambda topics: ({topics[0]["id"]: [{"url": "https://docs.example/tool", "title": "官方资料", "claim": "导出功能"}]}, "有参考来源")
+    sid = new_session(c)
+    topic = c.post(f"/api/sessions/{sid}/generate").json()["topics"][0]
+    refreshed = c.post(f"/api/topics/{topic['id']}/research").json()["topic"]
+    assert refreshed["sources"][0]["id"] == topic["sources"][0]["id"]
+    p.research = lambda _: ({}, "查证失败，未核实")
+    after_failure = c.post(f"/api/topics/{topic['id']}/research").json()["topic"]
+    assert after_failure["sources"] == refreshed["sources"]
+
+
+def test_clear_favorite_and_validation_do_not_delete_topic(setup):
+    c, _, _ = setup
+    sid = new_session(c)
+    tid = c.post(f"/api/sessions/{sid}/generate").json()["topics"][0]["id"]
+    c.patch(f"/api/topics/{tid}", json={"favorite": True})
+    assert c.patch(f"/api/topics/{tid}", json={"status":"invalid"}).status_code == 422
+    c.patch(f"/api/topics/{tid}", json={"favorite":False})
+    assert c.get('/api/favorites').json() == []
+    assert c.get(f'/api/topics/{tid}').status_code == 200
+
+
+def test_whitespace_message_is_rejected(setup):
+    c, _, _ = setup
+    sid = new_session(c)
+    assert c.post(f"/api/sessions/{sid}/messages", json={"text":"   ","request_id":"blank"}).status_code == 422
+
+
+def test_store_closes_database_handle(tmp_path):
+    store = Store(tmp_path / 'closed.db')
+    with store.connection() as connection:
+        assert connection.execute('SELECT 1').fetchone()[0] == 1
+    with pytest.raises(sqlite3.ProgrammingError):
+        connection.execute('SELECT 1')

@@ -1,6 +1,6 @@
 import json
 import sqlite3
-from contextlib import contextmanager
+from contextlib import closing, contextmanager
 from datetime import datetime, timezone
 from pathlib import Path
 from uuid import uuid4
@@ -40,9 +40,10 @@ class Store:
 
     @contextmanager
     def connection(self):
-        with sqlite3.connect(self.path, timeout=10) as db:
-            db.execute("PRAGMA foreign_keys=ON")
-            yield db
+        with closing(sqlite3.connect(self.path, timeout=10)) as db:
+            with db:
+                db.execute("PRAGMA foreign_keys=ON")
+                yield db
 
     def profile(self):
         with self.connection() as db:

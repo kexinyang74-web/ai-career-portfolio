@@ -3,7 +3,7 @@ from typing import Annotated, Literal
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 
-Text = Annotated[str, Field(min_length=1, max_length=3000, strip_whitespace=True)]
+Text = Annotated[str, Field(min_length=1, max_length=3000)]
 Items = Annotated[list[Text], Field(min_length=1, max_length=12)]
 Category = Literal["AI工具", "学习成长", "生活管理"]
 

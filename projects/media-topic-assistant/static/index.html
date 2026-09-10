@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>灵感小记 · 自媒体选题助手</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="/" aria-label="灵感小记首页"><span class="brand-mark">✳</span><span>灵感小记<small>从生活里，找到值得分享的事</small></span></a>
+    <div class="nav-label">我的创作空间</div>
+    <nav aria-label="主导航">
+      <button class="nav active" data-view="create"><span>✧</span>开始选题</button>
+      <button class="nav" data-view="favorites"><span>♡</span>收藏夹</button>
+      <button class="nav" data-view="history"><span>◷</span>历史记录</button>
+      <button class="nav" data-view="profile"><span>◎</span>账号定位</button>
+    </nav>
+    <div class="sidebar-note"><span class="dot"></span> 本机创作空间<p>从真实经历出发<br>把小问题，变成好内容。</p></div>
+    <div class="avatar-line"><span class="avatar">我</span><div>我的内容工作台<small>AI · 成长 · 生活</small></div></div>
+  </aside>
+  <main>
+    <header class="topbar"><span>工作台 <span class="slash">/</span> <strong id="breadcrumb">开始选题</strong></span><span class="local-badge">● 资料存于本机</span></header>
+    <div id="connection" class="connection" hidden></div>
+    <div id="error" class="notice error" role="alert" hidden></div>
+    <div id="toast" role="status" hidden></div>
+    <section id="view-create" class="view">
+      <div class="page-heading"><div><div class="eyebrow">A LITTLE EXPERIENCE, A GOOD IDEA</div><h1>你的经历，就是下一篇的起点<span>。</span></h1><p>聊聊最近的小问题，一起找到真实、有用、值得动手的选题。</p></div><button id="new-session" class="button secondary">＋ 新对话</button></div>
+      <div class="profile-strip"><span class="mini-label">为你定制</span><span id="audience-summary">毕业 0—3 年的年轻人</span><span class="separator">/</span><span id="platform-summary">小红书图文为主</span><span class="separator">/</span><span id="budget-summary">半天完成亲测与创作</span><button data-view="profile" class="text-button">调整定位 ↗</button></div>
+      <div class="workspace">
+        <section class="conversation panel"><div class="panel-head"><h2><span class="step">01</span> 先聊聊你的经历</h2><span id="round-count" class="quiet">轻松聊几句</span></div><div id="messages" aria-live="polite"></div>
+          <form id="chat-form"><label class="sr-only" for="message-input">你的经历</label><textarea id="message-input" maxlength="3000" placeholder="比如：这周写周报花了很久，想试试用 AI 整理工作记录……" rows="4"></textarea><div class="composer-bottom"><span>真实的小事就很好</span><button class="button primary" type="submit" id="send">发送 ↗</button></div></form>
+          <div class="generate-box"><p id="generate-hint">还没想清楚也没关系，可以先看看灵感。</p><button id="generate" class="button dark">✧ 现在生成选题</button><small>默认 6 个选题 · 信息不足会标为待补充</small></div>
+        </section>
+        <section class="ideas"><div class="panel-head"><h2><span class="step">02</span> 这一轮的灵感</h2><span id="topic-count" class="quiet">等待发芽</span></div><div id="research-notice" class="notice" hidden></div><div id="topics"></div><details id="previous-wrap" hidden><summary>查看之前生成的选题</summary><div id="previous-topics" class="card-grid"></div></details></section>
+      </div>
+    </section>
+    <section id="view-favorites" class="view" hidden><div class="page-heading"><div><div class="eyebrow">IDEAS WORTH KEEPING</div><h1>把想做的，留下来。</h1><p>一个个小选题，慢慢变成你的作品。</p></div></div><div class="filters" id="favorite-filters"><button class="filter active" data-status="">全部收藏</button><button class="filter" data-status="待创作">待创作</button><button class="filter" data-status="已发布">已发布</button><button class="filter" data-status="放弃">放弃</button></div><div id="favorites" class="card-grid"></div></section>
+    <section id="view-history" class="view" hidden><div class="page-heading"><div><div class="eyebrow">YOUR CREATIVE TRAIL</div><h1>每次聊过，都有迹可循。</h1><p>回到之前的经历，继续打磨你的选题。</p></div></div><div id="history"></div></section>
+    <section id="view-profile" class="view" hidden><div class="page-heading"><div><div class="eyebrow">MADE FOR YOUR VOICE</div><h1>让每次灵感，更像你。</h1><p>定位长期保存，也可以随着你的创作慢慢调整。</p></div></div><form id="profile-form" class="panel profile-form"><label>我想帮助的人<input name="audience" required maxlength="3000"></label><label>账号定位与创作原则<textarea name="positioning" required maxlength="3000" rows="3"></textarea></label><div class="form-row"><label>主要平台<input name="primary_platform" required></label><label>辅助平台（用逗号分隔）<input name="secondary_platforms"></label></div><fieldset><legend>内容方向比例 <small>长期偏好，不要求每轮严格配比</small></legend><div class="form-row"><label>AI 工具 %<input type="number" name="weight-ai" min="0" max="100" required></label><label>学习成长 %<input type="number" name="weight-growth" min="0" max="100" required></label><label>生活管理 %<input type="number" name="weight-life" min="0" max="100" required></label></div></fieldset><label>单篇亲测与制作的总时间（小时）<input type="number" name="time_budget_hours" min="0.5" max="72" step="0.5" required></label><button class="button primary" type="submit">保存定位</button><p class="quiet">只影响后续推荐，已收藏的选题会保留。</p></form></section>
+    <footer>不必追每一个热点。先把一件小事，分享清楚。</footer>
+  </main>
+  <dialog id="plan-dialog"><div class="dialog-header"><span class="eyebrow">YOUR TOPIC BRIEF</span><button id="close-dialog" class="icon-button" aria-label="关闭策划单">×</button></div><div id="plan-content"></div></dialog>
+  <div id="busy" role="status" hidden><span class="spinner"></span><span id="busy-label">正在整理你的灵感…</span></div>
+</body>
+</html>

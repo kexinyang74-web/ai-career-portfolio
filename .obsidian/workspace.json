@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day54-拼prompt对比.md",
+                "file": "笔记/Day57-Chroma持久化.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day54-拼prompt对比"
+              "title": "Day57-Chroma持久化"
             }
           }
         ]
@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day55-检查点自测5题.md",
+                "file": "笔记/Day57-自测5题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day55-检查点自测5题"
+              "title": "Day57-自测5题"
             }
           }
         ]
@@ -221,27 +221,39 @@
       "bases:新建数据库": false
     }
   },
-  "active": "38d3ee9c1fb6c76d",
+  "active": "959543ced8451bc0",
   "lastOpenFiles": [
-    "projects/media-topic-assistant/provider.py",
-    "projects/media-topic-assistant/store.py",
-    "projects/media-topic-assistant/models.py",
+    "笔记/Day57-自测5题-批改版.md",
+    "笔记/Day57-自测5题.md",
+    "projects/media-topic-assistant/data/assistant.db-shm",
+    "projects/media-topic-assistant/data/assistant.db-wal",
+    "笔记/Day57-Chroma持久化.md",
+    "projects/media-topic-assistant/tests/__pycache__/test_provider.cpython-313-pytest-9.1.1.pyc",
+    "projects/media-topic-assistant/tests/__pycache__/test_app.cpython-313-pytest-9.1.1.pyc",
+    "projects/media-topic-assistant/data/assistant.db-journal",
+    "projects/media-topic-assistant/data/assistant.db",
+    "projects/media-topic-assistant/data",
+    "projects/media-topic-assistant/test-results/mobile.png",
+    "projects/media-topic-assistant/test-results/desktop-topics.png",
+    "projects/media-topic-assistant/test-results/brief.png",
+    "projects/media-topic-assistant/test-results/desktop-empty.png",
+    "projects/media-topic-assistant/test-results",
+    "projects/media-topic-assistant/tests/__pycache__/test_app.cpython-313.pyc",
+    "projects/media-topic-assistant/ACCEPTANCE.md",
+    "projects/media-topic-assistant/README.md",
+    "projects/media-topic-assistant/tests/browser_check.py",
     "笔记/Day55-检查点自测5题-批改版.md",
-    "pytest-cache-files-xk3j6x1q",
-    "projects/media-topic-assistant/tests/__pycache__/test_app.cpython-313-pytest-8.3.4.pyc",
-    "projects/media-topic-assistant/tests/__pycache__",
-    "projects/media-topic-assistant/tests/test_app.py",
-    "projects/media-topic-assistant/tests",
-    "projects/media-topic-assistant",
-    "笔记/Day55-第8周收官.md",
+    "学习日志/2026-09-10-Day57-学习日志.md",
     "笔记/Day55-检查点自测5题.md",
+    "笔记/Day55-第8周收官.md",
+    "笔记/Python语法速查卡.md",
+    "笔记/Day54-拼prompt对比.md",
+    "plan/第9周-进度追踪.md",
+    "plan/第9周-定稿版.md",
     "学习日志/2026-09-10-Day54-学习日志.md",
     "学习日志/2026-09-10-Day55-学习日志.md",
-    "projects/python-practice/day55/leetcode_455.py",
-    "projects/python-practice/day55/leetcode_268.py",
     "笔记/Day54-自测5题-批改版.md",
     "笔记/Day54-自测5题.md",
-    "笔记/Day54-拼prompt对比.md",
     "笔记/Day53-手写余弦检索.md",
     "学习日志/2026-09-10-Day53-学习日志.md",
     "笔记/Day53-自测5题-批改版.md",
@@ -251,23 +263,11 @@
     "笔记/Day52-Embedding-API.md",
     "笔记/Day51-十篇文档与切分.md",
     "学习日志/2026-09-07-Day52-学习日志.md",
-    "学习日志/2026-09-07-Day51-学习日志.md",
-    "笔记/Day51-自测5题.md",
-    "笔记/Day50-自测5题.md",
-    "projects/python-practice/day51/docs/10.md",
-    "projects/python-practice/day51/docs/09.md",
-    "projects/python-practice/day51/docs/08.md",
-    "projects/python-practice/day51/docs/07.md",
-    "projects/python-practice/day51/docs/06.md",
     "test_files/图片/03_风景照.jpg.jpg",
     "test_files/图片/02_照片备份.png.png",
     "test_files/图片/01_桌面截图.png.png",
     "test_files/图片/风景照.jpg",
     "test_files/图片/照片备份.png",
-    "test_files/图片/桌面截图.png",
-    "test_files/桌面截图.png",
-    "test_files/照片备份.png",
-    "test_files/风景照.jpg",
-    "个人作品集网站_项目/public/avatar.jpg"
+    "test_files/图片/桌面截图.png"
   ]
 }
