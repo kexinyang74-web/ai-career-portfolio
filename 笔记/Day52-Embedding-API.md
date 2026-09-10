@@ -7,12 +7,12 @@
 
 ## 和 Chat 差在哪（今天必须能讲清）
 
-| | Chat Completions | Embeddings |
-|---|---|---|
-| 路径 | `{BASE}/chat/completions` | `{BASE}/embeddings` |
-| 模型名 | 例如 `deepseek-chat` | 专门的 embedding 模型，不能拿对话模型名硬套 |
-| 你送进去 | `messages` | `input`（一段或一批文本） |
-| 回来 | `choices[0].message.content` 字符串 | `data[0].embedding` **一串浮点数** |
+|      | Chat Completions                 | Embeddings                    |
+| ---- | -------------------------------- | ----------------------------- |
+| 路径   | `{BASE}/chat/completions`        | `{BASE}/embeddings`           |
+| 模型名  | 例如 `deepseek-chat`               | 专门的 embedding 模型，不能拿对话模型名硬套   |
+| 你送进去 | `messages`                       | `input`（一段或一批文本）              |
+| 回来   | `choices[0].message.content` 字符串 | `data[0].embedding` **一串浮点数** |
 
 项目一用的 DeepSeek Chat **通常没有** `/embeddings`。今天要另配你能 200 的兼容接口（通义兼容模式、硅基流动等，以控制台为准）。`.env.example` 里有两套地址示例，只填你实际开通的那套。
 

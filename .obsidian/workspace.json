@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day52-Embedding-API.md",
+                "file": "笔记/Day52-自测5题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day52-Embedding-API"
+              "title": "Day52-自测5题"
             }
           }
         ]
@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day52-Embedding-API.md",
+                "file": "笔记/Day52-自测5题-批改版.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day52-Embedding-API"
+              "title": "Day52-自测5题-批改版"
             }
           }
         ]
@@ -223,14 +223,16 @@
   },
   "active": "959543ced8451bc0",
   "lastOpenFiles": [
-    "学习日志/2026-09-07-Day51-学习日志.md",
+    "笔记/Day52-自测5题-批改版.md",
     "笔记/Day52-Embedding-API.md",
-    "笔记/Day51-自测5题.md",
-    "学习日志/2026-09-07-Day52-学习日志.md",
     "笔记/Day52-自测5题.md",
+    "笔记/Day51-十篇文档与切分.md",
+    "学习日志/2026-09-07-Day52-学习日志.md",
+    "projects/python-practice/day52/embeddings.json",
+    "学习日志/2026-09-07-Day51-学习日志.md",
+    "笔记/Day51-自测5题.md",
     "projects/python-practice/day52/01_embed.py",
     "projects/python-practice/day52",
-    "笔记/Day51-十篇文档与切分.md",
     "笔记/Day50-自测5题.md",
     "projects/python-practice/day51/docs/10.md",
     "projects/python-practice/day51/docs/09.md",
@@ -253,12 +255,10 @@
     "学习日志/2026-09-06-Day48-学习日志.md",
     "plan/第8周-进度追踪.md",
     "plan/第8周-定稿版.md",
-    "笔记/Day48-检查点自测5题-批改版.md",
     "projects/python-practice/day48/tempCodeRunnerFile.py",
     "projects/python-practice/day48/leetcode_485.py",
     "projects/python-practice/day48/leetcode_771.py",
     "projects/python-practice/day48",
-    "projects/project-1-ai-assistant/demo/README.md - 学习安排 - Cursor 2026-09-06 09-28-07.mp4",
     "test_files/图片/03_风景照.jpg.jpg",
     "test_files/图片/02_照片备份.png.png",
     "test_files/图片/01_桌面截图.png.png",
