@@ -28,7 +28,7 @@ def create_app(db_path=None, provider=None):
     load_dotenv(ROOT / ".env")
     db = Store(db_path or ROOT / "data" / "assistant.db")
     ai = provider or DeepSeekProvider()
-    app = FastAPI(title="灵感小记 · 自媒体选题助手", docs_url=None, redoc_url=None)
+    app = FastAPI(title="灵感小记 · 自媒体创作工作台", docs_url=None, redoc_url=None)
     app.state.store, app.state.provider = db, ai
     # Single local user: one generation at a time prevents double clicks from
     # overwriting feedback or creating two batches. Reads stay available.
@@ -57,7 +57,7 @@ def create_app(db_path=None, provider=None):
 
     @app.exception_handler(RequestValidationError)
     async def input_error(request, exc):
-        return JSONResponse({"detail": "输入不符合要求，请检查必填项、字数和比例（合计100）。"}, status_code=422)
+        return JSONResponse({"detail": "输入不符合要求，请检查必填项、日期、数值范围及内容方向比例（合计100）。"}, status_code=422)
 
     @contextmanager
     def writing():
@@ -124,7 +124,9 @@ def create_app(db_path=None, provider=None):
     @app.put("/api/profile")
     def update_profile(profile: Profile):
         with writing():
-            return db.save_profile(profile.model_dump())
+            merged = {**db.profile(), **profile.model_dump(exclude_unset=True)}
+            studio.save_profile(Profile.model_validate(merged).model_dump())
+            return db.profile()
 
     @app.get("/api/sessions")
     def sessions():
@@ -231,7 +233,13 @@ def create_app(db_path=None, provider=None):
 
     @app.get("/")
     def home():
+        return FileResponse(ROOT / "static" / "workbench.html")
+
+    @app.get("/topics")
+    def topic_page():
         return FileResponse(ROOT / "static" / "index.html")
 
+    from studio_api import install_studio
+    studio = install_studio(app, db, ai, writing)
     app.mount("/static", StaticFiles(directory=ROOT / "static"), name="static")
     return app

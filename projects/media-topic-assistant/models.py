@@ -5,7 +5,7 @@ from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 Text = Annotated[str, Field(min_length=1, max_length=3000)]
 Items = Annotated[list[Text], Field(min_length=1, max_length=12)]
-Category = Literal["AI工具", "学习成长", "生活管理"]
+Category = Text
 
 
 class StrictModel(BaseModel):
@@ -19,11 +19,20 @@ class Profile(StrictModel):
     secondary_platforms: list[Text] = ["抖音/视频号", "B站/公众号"]
     weights: dict[Category, int] = {"AI工具": 70, "学习成长": 20, "生活管理": 10}
     time_budget_hours: float = Field(default=4, gt=0, le=72)
+    goal: str = Field(default="", max_length=10000)
+    voice: str = Field(default="", max_length=10000)
+    boundaries: str = Field(default="", max_length=10000)
+    columns: list[Text] = Field(default_factory=list, max_length=100)
+    content_forms: list[Literal["图文", "口播", "录屏教程", "生活记录", "混合视频"]] = Field(default_factory=lambda: ["图文", "口播", "录屏教程", "生活记录", "混合视频"], min_length=1, max_length=5)
+    on_camera: Text = "可出镜或不出镜"
+    weekly_hours: float = Field(default=8, ge=0, le=168, allow_inf_nan=False)
+    interview: str = Field(default="", max_length=100000)
+    confirmed: bool = False
 
     @model_validator(mode="after")
     def validate_weights(self):
-        if set(self.weights) != {"AI工具", "学习成长", "生活管理"} or any(v < 0 for v in self.weights.values()) or sum(self.weights.values()) != 100:
-            raise ValueError("三个方向的比例必须非负，合计100。")
+        if not self.weights or any(v < 0 for v in self.weights.values()) or sum(self.weights.values()) != 100:
+            raise ValueError("内容方向的比例必须非负，合计100。")
         return self
 
 

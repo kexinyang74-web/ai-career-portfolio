@@ -4,6 +4,8 @@ from urllib.parse import urlparse
 
 import httpx
 
+from studio_prompts import STUDIO_INSTRUCTIONS, STUDIO_TASKS
+
 
 class ProviderError(Exception):
     def __init__(self, code, message, status=502):
@@ -72,8 +74,9 @@ class DeepSeekProvider:
             raise ProviderError("invalid_output", "DeepSeek 返回了无法读取的数据，请重试。") from None
 
     def generate(self, kind, context, schema):
+        instructions = STUDIO_INSTRUCTIONS + STUDIO_TASKS[kind] if kind.startswith("studio.") else INSTRUCTIONS + TASKS[kind]
         raw = self._post({
-            "instructions": INSTRUCTIONS + TASKS[kind],
+            "instructions": instructions,
             "input": json.dumps({"context": context, "required_json_schema": schema}, ensure_ascii=False),
             "text": {"format": {"type": "json_object"}},
             "max_output_tokens": 10000,

@@ -38,7 +38,7 @@ def main():
                 page = browser.new_page(viewport={"width":1440,"height":1000}, device_scale_factor=1)
                 errors = []
                 page.on("pageerror", lambda error: errors.append(str(error)))
-                page.goto("http://127.0.0.1:18765")
+                page.goto("http://127.0.0.1:18765/topics")
                 page.locator("#busy").wait_for(state="hidden")
                 page.screenshot(path=str(output / "desktop-empty.png"), full_page=True)
                 page.locator("#message-input").fill("我刚入职，整理学习笔记很费时间，还没有试过 AI。")

@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>灵感小记 · 创作工作台</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="/static/workbench.css" />
+    <script src="/static/workbench.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#content">跳到正文</a>
+    <aside class="sidebar">
+      <a class="brand" href="/"
+        ><b>✳</b
+        ><span>灵感小记<small>把真实的经历，慢慢变成作品</small></span></a
+      >
+      <p class="nav-label">我的创作空间</p>
+      <nav aria-label="工作台导航">
+        <button data-view="home">◷ <span>本周工作台</span></button
+        ><button data-view="profile">◎ <span>账号定位</span></button
+        ><button data-view="materials">▤ <span>素材库</span></button
+        ><button data-view="topics">✧ <span>选题池</span></button
+        ><button data-view="works">▧ <span>作品库</span></button
+        ><button data-view="reviews">↗ <span>复盘库</span></button>
+      </nav>
+      <div class="sidebar-note">
+        <span class="dot"></span> 本机创作空间
+        <p>从一件真实的小事开始。<br />先做出来，再慢慢变好。</p>
+      </div>
+      <div class="identity">
+        <span>我</span>
+        <div>我的内容工作台<small>定位 · 创作 · 复盘</small></div>
+      </div>
+    </aside>
+    <main id="content">
+      <header class="topbar">
+        <span
+          >工作台 <em>/</em> <strong id="breadcrumb">本周工作台</strong></span
+        ><span class="local">● 资料存于本机</span>
+      </header>
+      <div id="studio-error" role="alert" hidden></div>
+      <div id="studio-toast" role="status" hidden></div>
+      <div id="studio-busy" role="status" hidden>正在保存或整理，请稍候…</div>
+      <section id="view-home" class="view">
+        <div class="page-heading">
+          <div class="eyebrow">ONE SMALL STEP, ONE REAL STORY</div>
+          <h1>这一周，让灵感落地<span>。</span></h1>
+          <p>找到一件值得分享的小事，给它留一点时间。</p>
+        </div>
+        <div class="hero">
+          <div>
+            <span class="tag">你的创作节奏</span>
+            <h2>不必一次做好所有事。</h2>
+            <p>把素材变成作品，把经验留给下一次。</p>
+            <button class="primary" data-go="works">＋ 开始一篇作品</button>
+            <button class="ghost" data-go="materials">记录一条素材 ↗</button>
+          </div>
+          <div class="plant" aria-hidden="true">
+            <span>✳</span><i>IDEAS TAKE TIME</i>
+          </div>
+        </div>
+        <div id="stats" class="stats"></div>
+        <div class="panel">
+          <div class="panel-title">
+            <h2>本周制作清单</h2>
+            <a href="#works">查看作品库 ↗</a>
+          </div>
+          <form id="schedule-form" class="inline">
+            <label
+              >本周起始日期<input
+                name="week_start"
+                type="date"
+                required /></label
+            ><button type="submit" class="primary">按时间预算排期</button
+            ><button id="load-week" type="button">查看这一周</button>
+          </form>
+          <p id="week-summary" class="muted"></p>
+          <div id="weekly-tasks"></div>
+          <details>
+            <summary>尚未排期</summary>
+            <div id="unscheduled-tasks"></div>
+          </details>
+        </div>
+        <div class="panel">
+          <h2>从这里继续</h2>
+          <div id="recent-works" class="cards"></div>
+        </div>
+      </section>
+      <section id="view-profile" class="view" hidden>
+        <div class="page-heading">
+          <div class="eyebrow">A VOICE THAT FEELS LIKE YOU</div>
+          <h1>先认识你，再开始创作<span>。</span></h1>
+          <p>每次保存都是一个新版本。作品保留创建时的定位。</p>
+        </div>
+        <div class="two-col">
+          <form id="profile-form" class="panel">
+            <h2>账号定位</h2>
+            <label>我想帮助的人<input name="audience" required /></label
+            ><label
+              >账号定位<textarea
+                name="positioning"
+                rows="3"
+                required
+              ></textarea></label
+            ><label>阶段目标<input name="goal" /></label>
+            <div class="form-row">
+              <label>主要平台<input name="primary_platform" required /></label
+              ><label
+                >辅助平台（逗号分隔）<input name="secondary_platforms"
+              /></label>
+            </div>
+            <label>表达语气<input name="voice" /></label
+            ><label
+              >创作边界<textarea name="boundaries" rows="2"></textarea></label
+            ><label>固定栏目（逗号分隔）<input name="columns" /></label>
+            <fieldset>
+              <legend>内容形式</legend>
+              <div id="profile-forms" class="checks"></div>
+            </fieldset>
+            <div class="form-row">
+              <label
+                >出镜意愿<select name="on_camera">
+                  <option value="可出镜">可出镜</option>
+                  <option value="不出镜">不出镜</option>
+                  <option value="视内容决定">视内容决定</option>
+                </select></label
+              ><label
+                >每周创作时间（小时）<input
+                  name="weekly_hours"
+                  type="number"
+                  min="0.5"
+                  max="168"
+                  step="0.5"
+                  required /></label
+              ><label
+                >单篇预算（小时）<input
+                  name="time_budget_hours"
+                  type="number"
+                  min="0.5"
+                  max="72"
+                  step="0.5"
+                  required
+              /></label>
+            </div>
+            <fieldset>
+              <legend>内容方向比例 · 合计 100%</legend>
+              <div id="weight-fields"></div>
+              <button type="button" id="add-direction">＋ 添加内容方向</button>
+            </fieldset>
+            <label class="check"
+              ><input name="confirmed" type="checkbox" />我已确认当前定位</label
+            ><button type="submit" class="primary">保存定位新版本</button>
+            <div id="profile-versions" class="muted"></div>
+          </form>
+          <div>
+            <form id="interview-form" class="panel">
+              <span class="tag">01 · 定位助手</span>
+              <h2>从一次小访谈开始</h2>
+              <p class="muted">
+                写下你的经历、优势、想帮助的人、喜欢和不喜欢的表达方式。
+              </p>
+              <label
+                >我的定位访谈<textarea
+                  name="interview"
+                  rows="8"
+                  placeholder="我做过什么？哪些问题我愿意持续研究？每周能投入多久？"
+                ></textarea></label
+              ><button class="primary" type="submit">生成三个定位候选</button>
+              <p class="muted">
+                候选需要你选择采用，再保存定位；不会自动覆盖。
+              </p>
+            </form>
+            <div id="positioning-candidates"></div>
+          </div>
+        </div>
+      </section>
+      <section id="view-materials" class="view" hidden>
+        <div class="page-heading">
+          <div class="eyebrow">REAL EXPERIENCES ARE YOUR SEEDS</div>
+          <h1>把值得记住的，收在这里<span>。</span></h1>
+          <p>经历、参考、待验证的想法。创作从有据可查开始。</p>
+        </div>
+        <div class="two-col">
+          <form id="material-form" class="panel">
+            <h2 id="material-form-title">记录一条素材</h2>
+            <input name="id" type="hidden" /><label
+              >素材标题<input name="title" required maxlength="200"
+            /></label>
+            <div class="form-row">
+              <label
+                >素材类型<select name="kind">
+                  <option>亲身经历</option>
+                  <option>外部参考</option>
+                  <option>待验证想法</option>
+                </select></label
+              ><label
+                >验证状态<select name="verification">
+                  <option>未核实</option>
+                  <option>有参考来源，待核实</option>
+                  <option>用户已亲测</option>
+                </select></label
+              >
+            </div>
+            <label
+              >素材正文<textarea
+                name="text"
+                rows="8"
+                required
+              ></textarea></label
+            ><label>参考来源链接<input name="url" type="url" /></label
+            ><label
+              >待补充 / 待验证（每行一项）<textarea
+                name="missing"
+                rows="3"
+              ></textarea></label
+            ><label
+              >附加图片（可多选）<input
+                name="images"
+                type="file"
+                accept="image/png,image/jpeg,image/webp"
+                multiple
+            /></label>
+            <p class="muted">图片仅保存在本机用于预览，不发送给 AI。</p>
+            <div class="actions">
+              <button class="primary" type="submit">保存素材</button
+              ><button type="button" id="new-material">新建另一条</button>
+            </div>
+          </form>
+          <div>
+            <div class="panel-title">
+              <h2>我的素材</h2>
+              <span id="material-count" class="muted"></span>
+            </div>
+            <div id="material-list"></div>
+          </div>
+        </div>
+      </section>
+      <section id="view-topics" class="view" hidden>
+        <div class="page-heading">
+          <div class="eyebrow">A LITTLE EXPERIENCE, A GOOD IDEA</div>
+          <h1>把想做的，变成下一篇<span>。</span></h1>
+          <p>继续使用经历访谈和选题推荐，从收藏的选题创建作品。</p>
+        </div>
+        <div class="hero compact">
+          <div>
+            <span class="tag">02 · 选题助手</span>
+            <h2>还没有想好要写什么？</h2>
+            <p>聊聊最近遇到的问题，找到值得亲自验证的内容。</p>
+            <a class="button primary" href="/topics">打开选题访谈 ↗</a>
+          </div>
+        </div>
+        <div class="panel">
+          <h2>已收藏的选题</h2>
+          <div id="favorite-list" class="cards"></div>
+        </div>
+      </section>
+      <section id="view-works" class="view" hidden>
+        <div class="page-heading">
+          <div class="eyebrow">FROM IDEA TO SOMETHING REAL</div>
+          <h1>一次创作，慢慢打磨<span>。</span></h1>
+          <p>策划、写稿、制作和发布，在同一篇作品里接着做。</p>
+        </div>
+        <form id="new-work-form" class="panel inline">
+          <label
+            >作品标题<input
+              name="title"
+              required
+              placeholder="这次想分享什么？" /></label
+          ><button type="submit" class="primary">创建作品</button>
+        </form>
+        <div class="work-layout">
+          <div id="work-list" class="work-list"></div>
+          <div id="work-detail" hidden>
+            <div class="panel">
+              <form id="work-edit-form">
+                <h2 id="work-title"></h2>
+                <label>修改作品标题<input name="title" required /></label>
+                <fieldset>
+                  <legend>关联素材 · 可多选</legend>
+                  <div id="work-materials" class="checks"></div>
+                </fieldset>
+                <button type="submit">保存作品信息</button>
+              </form>
+              <details>
+                <summary>创建时的定位快照</summary>
+                <div id="profile-snapshot" class="prose"></div>
+              </details>
+            </div>
+            <div class="panel">
+              <div class="panel-title">
+                <h2>这篇作品的内容形式</h2>
+                <span class="tag">一份主题，多种表达</span>
+              </div>
+              <form id="variant-form" class="inline">
+                <label
+                  >新增形式<select name="form" id="new-form"></select></label
+                ><label
+                  >发布平台<input
+                    name="platform"
+                    value="小红书"
+                    required /></label
+                ><button class="primary" type="submit">添加内容形式</button>
+              </form>
+              <div class="form-row">
+                <label
+                  >正在编辑的形式<select id="variant-picker"></select></label
+                ><label>进度状态<select id="variant-status"></select></label
+                ><label>此形式的平台<input id="variant-platform" /></label>
+              </div>
+              <button type="button" id="save-variant">
+                保存形式状态与平台
+              </button>
+            </div>
+            <div class="panel">
+              <span class="tag">03 · 策划 / 04 · 写稿 / 05 · 包装助手</span>
+              <h2>创作编辑室</h2>
+              <form id="generation-form">
+                <div class="form-row">
+                  <label
+                    >图文页数<input
+                      name="page_count"
+                      type="number"
+                      min="1"
+                      max="30"
+                      value="6" /></label
+                  ><label
+                    >视频时长（秒）<input
+                      name="duration_seconds"
+                      type="number"
+                      min="15"
+                      max="3600"
+                      value="180" /></label
+                  ><label
+                    >结构模板<select name="template" id="template-picker">
+                      <option value="">自动适配当前形式</option>
+                    </select></label
+                  >
+                </div>
+                <label
+                  >本次要求<textarea
+                    name="instruction"
+                    rows="2"
+                    placeholder="想重点说明什么？还有哪些限制？"
+                  ></textarea></label
+                ><label
+                  >参考稿件 / 改编来源<select id="source-picker">
+                    <option value="">不使用已有稿件</option>
+                  </select></label
+                >
+                <div class="actions">
+                  <button type="button" data-generate="brief">生成策划单</button
+                  ><button type="button" data-generate="draft" class="primary">
+                    生成当前形式稿件</button
+                  ><button type="button" data-generate="package">
+                    生成标题封面与发布包装
+                  </button>
+                </div>
+              </form>
+              <p class="muted">
+                跨形式改编：选择目标形式和已有稿件后生成。生成前会先保存下方未保存的人工编辑。
+              </p>
+              <hr />
+              <form id="manual-artifact-form">
+                <div class="form-row">
+                  <label
+                    >人工内容类型<select name="kind">
+                      <option value="draft">稿件</option>
+                      <option value="brief">策划单</option>
+                      <option value="package">标题封面与发布包装</option>
+                      <option value="review">单篇复盘</option>
+                    </select></label
+                  >
+                </div>
+                <label
+                  >人工稿件正文<textarea
+                    name="markdown"
+                    rows="8"
+                    placeholder="直接写作，或粘贴你在其他地方整理的稿件。支持 Markdown。"
+                  ></textarea>
+                </label>
+                <div class="actions">
+                  <button class="primary" type="submit">保存人工版本</button
+                  ><button id="clear-editor" type="button">清空编辑器</button>
+                </div>
+                <p id="editor-status" class="muted">
+                  手动编辑与导出无需配置 AI 密钥。
+                </p>
+              </form>
+            </div>
+            <div class="panel">
+              <h2>稿件与版本记录</h2>
+              <div id="artifact-list"></div>
+            </div>
+            <div class="panel">
+              <span class="tag">07 · 制作 SOP 助手</span>
+              <div class="panel-title">
+                <h2>一步一步，完成制作</h2>
+                <a id="tasks-export" href="#">导出任务 CSV ↗</a>
+              </div>
+              <button id="generate-sop" type="button" class="primary">
+                生成制作清单
+              </button>
+              <div id="task-list"></div>
+            </div>
+            <div class="panel">
+              <h2>发布登记</h2>
+              <form id="publication-form">
+                <input type="hidden" name="id" />
+                <div class="form-row">
+                  <label
+                    >发布平台<input
+                      name="platform"
+                      required
+                      value="小红书" /></label
+                  ><label
+                    >发布日期<input
+                      name="published_at"
+                      type="date"
+                      required /></label
+                  ><label
+                    >观察天数<input
+                      name="observation_days"
+                      type="number"
+                      min="1"
+                      value="7"
+                      required
+                  /></label>
+                </div>
+                <label>发布链接<input name="url" type="url" /></label>
+                <div class="form-row metrics">
+                  <label
+                    >播放 / 阅读量<input
+                      name="views"
+                      type="number"
+                      min="0" /></label
+                  ><label
+                    >点赞<input name="likes" type="number" min="0" /></label
+                  ><label
+                    >评论<input name="comments" type="number" min="0" /></label
+                  ><label
+                    >收藏<input name="saves" type="number" min="0" /></label
+                  ><label
+                    >完播率（%）<input
+                      name="completion_rate"
+                      type="number"
+                      min="0"
+                      max="100"
+                      step="0.01" /></label
+                  ><label
+                    >实际耗时（小时）<input
+                      name="actual_hours"
+                      type="number"
+                      min="0"
+                      step="0.1"
+                  /></label>
+                </div>
+                <label
+                  >评论区反馈<textarea
+                    name="comments_text"
+                    rows="2"
+                  ></textarea></label
+                ><label
+                  >我的观察与反思<textarea
+                    name="reflection"
+                    rows="3"
+                  ></textarea>
+                </label>
+                <p class="muted">不知道的指标请留空，留空不会被当作 0。</p>
+                <div class="actions">
+                  <button class="primary" type="submit">保存发布记录</button
+                  ><button id="new-publication" type="button">
+                    新建发布记录</button
+                  ><button type="button" data-generate="review">
+                    生成单篇复盘
+                  </button>
+                </div>
+              </form>
+              <div id="publication-list"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="view-reviews" class="view" hidden>
+        <div class="page-heading">
+          <div class="eyebrow">EVERY TRY TEACHES YOU SOMETHING</div>
+          <h1>把做过的，变成下一次的底气<span>。</span></h1>
+          <p>同平台、同形式、同观察周期再比较；样本少时，先保留假设。</p>
+        </div>
+        <form id="period-form" class="panel">
+          <span class="tag">08 · 复盘助手</span>
+          <h2>回看这一段创作</h2>
+          <div class="inline">
+            <label
+              >发布开始日期<input
+                name="start_date"
+                type="date"
+                required /></label
+            ><label
+              >发布结束日期<input name="end_date" type="date" required /></label
+            ><button class="primary" type="submit">生成周期复盘</button>
+          </div>
+        </form>
+        <div id="review-list"></div>
+      </section>
+      <footer>不必追每一个热点。先把一件小事，分享清楚。</footer>
+    </main>
+  </body>
+</html>
