@@ -1,0 +1,24 @@
+{
+  "id": "conv-1789207595839-wzqg7q0z2",
+  "providerId": "claude",
+  "title": "测试助手能否正常工作",
+  "titleGenerationStatus": "success",
+  "createdAt": 1789207595845,
+  "lastActivityAt": 1789207758591,
+  "sessionId": "e8529731-591f-40dd-99a4-de30bf54fb7f",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "e8529731-591f-40dd-99a4-de30bf54fb7f"
+  },
+  "linkedContentPath": "输出/RAG/LangChain Loader与Splitter 的学习.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 722,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 42688,
+    "contextWindow": 200000,
+    "contextTokens": 43410,
+    "percentage": 22,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1789207595839-wzqg7q0z2",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789207596005-591q564",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1789207595836-nn40ygh",
+      "timestamp": 1789207595836,
+      "rawDisplayText": "你能工作吗",
+      "canonicalText": "你能工作吗",
+      "context": {
+        "linkedContent": {
+          "path": "输出/RAG/未命名.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "97fd4d9752af45f7975de8b0a7ab7890eb5424bc4654097c2f9cc7ba3caf34cb",
+      "providerUserMessageId": "15953584-94fa-4134-a26e-736802ae5448",
+      "providerAssistantMessageId": "2b0f4628-9ffa-4085-8630-a00e5fa292eb"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789207658056-b4zay4b",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1789207658053-c003ai6",
+      "timestamp": 1789207658053,
+      "rawDisplayText": "帮我把模板文件夹里的文档上传为模板",
+      "canonicalText": "帮我把模板文件夹里的文档上传为模板",
+      "images": [],
+      "contentDigest": "9d5ba989419a7bfcf412bcdc7c44046382ab3c2a97d52b384b6430d8d117e445",
+      "providerUserMessageId": "cd0052f7-5087-4bc8-a241-6226182bfd7a",
+      "providerAssistantMessageId": "fdb17c1b-7dbc-4f5e-8826-506fe0abcabd"
+    }
+  ]
+}
