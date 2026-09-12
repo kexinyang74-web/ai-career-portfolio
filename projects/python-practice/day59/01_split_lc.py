@@ -65,7 +65,7 @@ def main() -> None:
 
     print("== 对照：Splitter vs 手写按空行 ==")
     print(f"手写按空行：{len(hand_chunks)} 块")
-    print(f"CharacterTextSplitter(separator=\\\\n\\\\n, chunk_size=2000)：{len(para)} 块")
+    print(f"CharacterTextSplitter（按空行，chunk_size=2000）：{len(para)} 块")
     print(f"RecursiveCharacterTextSplitter(chunk_size=80, overlap=20)：{len(fixed)} 块")
     print()
 
