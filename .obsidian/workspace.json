@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day59-自测5题.md",
+                "file": "术语库/embedding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day59-自测5题"
+              "title": "embedding"
             }
           }
         ]
@@ -242,10 +242,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "8acba08ceb3a05bb",
+  "active": "959543ced8451bc0",
   "lastOpenFiles": [
-    "输出/RAG/LangChain Loader与Splitter 的学习.md",
+    "术语库/embedding.md",
+    "模板/术语模板.md",
     "笔记/Day59-自测5题.md",
+    "术语库",
+    "输出/RAG/LangChain Loader与Splitter 的学习.md",
     "笔记/Day59-自测5题-批改版.md",
     "笔记/Day59-Loader与Splitter.md",
     "模板/输出文档模板.md",
@@ -269,7 +272,6 @@
     "projects/python-practice/day58",
     "笔记/Python语法速查卡.md",
     "笔记/Day57-自测5题-批改版.md",
-    "projects/media-topic-assistant/tests/__pycache__/test_provider.cpython-313-pytest-9.1.1.pyc",
     "projects/media-topic-assistant/test-results/mobile.png",
     "projects/media-topic-assistant/test-results/desktop-topics.png",
     "projects/media-topic-assistant/test-results/brief.png",
@@ -282,8 +284,6 @@
     "笔记/Day55-第8周收官.md",
     "笔记/Day54-拼prompt对比.md",
     "plan/第9周-进度追踪.md",
-    "plan/第9周-定稿版.md",
-    "学习日志/2026-09-10-Day54-学习日志.md",
     "test_files/图片/03_风景照.jpg.jpg",
     "test_files/图片/02_照片备份.png.png",
     "test_files/图片/01_桌面截图.png.png",
