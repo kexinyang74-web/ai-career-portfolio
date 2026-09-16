@@ -242,10 +242,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "8acba08ceb3a05bb",
+  "active": "959543ced8451bc0",
   "lastOpenFiles": [
-    "笔记/Day60-自测5题.md",
     "笔记/Day60-VectorStore与QA.md",
+    "笔记/Day60-自测5题.md",
     "术语库/embedding.md",
     "输出/RAG/LangChain Loader与Splitter 的学习.md",
     "模板/术语模板.md",
