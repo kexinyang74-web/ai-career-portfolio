@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day67-复测k5.md",
+                "file": "笔记/Day69-第10周检查点.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day67-复测k5"
+              "title": "Day69-第10周检查点"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day67-自测5题.md",
+                "file": "笔记/Day69-检查点自测5题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day67-自测5题"
+              "title": "Day69-检查点自测5题"
             }
           }
         ]
@@ -242,12 +242,18 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "8acba08ceb3a05bb",
+  "active": "959543ced8451bc0",
   "lastOpenFiles": [
+    "笔记/Day69-第10周检查点.md",
+    "笔记/Day69-检查点自测5题.md",
+    "笔记/Day68-自测5题.md",
+    "笔记/Day68-README与GraphRAG.md",
+    "学习日志/2026-09-18-Day69-学习日志.md",
+    "projects/python-practice/day57/chroma_db/chroma.sqlite3-journal",
     "笔记/Day67-自测5题.md",
     "笔记/Day67-复测k5.md",
+    "学习日志/2026-09-18-Day68-学习日志.md",
     "projects/project-2-rag/eval/运行记录-k5.md",
-    "projects/python-practice/day57/chroma_db/chroma.sqlite3-journal",
     "笔记/Day66-自测5题.md",
     "笔记/Day66-调优k.md",
     "学习日志/2026-09-18-Day67-学习日志.md",
@@ -269,12 +275,6 @@
     "projects/project-2-rag/eval",
     "plan/第10周-进度追踪.md",
     "plan/第10周-定稿版.md",
-    "笔记/Day62-自测5题.md",
-    "笔记/Day62-FAISS与三家对比.md",
-    "学习日志/2026-09-18-Day63-学习日志.md",
-    "笔记/Day61-自测5题.md",
-    "笔记/Day61-项目二CLI.md",
-    "学习日志/2026-09-18-Day62-学习日志.md",
     "projects/python-practice/day62/requirements.txt",
     "projects/python-practice/day62/01_faiss.py",
     "projects/python-practice/day62",

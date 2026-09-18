@@ -91,7 +91,7 @@ def source_name(meta: dict) -> str:
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="爆款案例库 RAG 问答")
     p.add_argument("query", nargs="?", default="30岁转行学编程晚不晚？根据笔记回答并写上来源文件名。")
-    p.add_argument("-k", type=int, default=3, help="检索条数，默认 3")
+    p.add_argument("-k", type=int, default=5, help="检索条数，默认 5（评测第 24 条 k=3 漏召回 02.md）")
     p.add_argument(
         "--source",
         default="",
