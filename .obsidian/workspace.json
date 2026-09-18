@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day64-评测集.md",
+                "file": "笔记/Day65-跑评测.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day64-评测集"
+              "title": "Day65-跑评测"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day64-自测5题.md",
+                "file": "笔记/Day65-自测5题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day64-自测5题"
+              "title": "Day65-自测5题"
             }
           }
         ]
@@ -242,10 +242,18 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "959543ced8451bc0",
+  "active": "8acba08ceb3a05bb",
   "lastOpenFiles": [
-    "笔记/Day64-评测集.md",
+    "projects/python-practice/day57/chroma_db/chroma.sqlite3-journal",
+    "笔记/Day65-自测5题.md",
+    "projects/project-2-rag/eval/运行记录.md",
+    "projects/project-2-rag/__pycache__/main.cpython-313.pyc",
+    "projects/project-2-rag/__pycache__",
+    "笔记/Day65-跑评测.md",
     "笔记/Day64-自测5题.md",
+    "笔记/Day64-评测集.md",
+    "学习日志/2026-09-18-Day65-学习日志.md",
+    "projects/project-2-rag/eval_run.py",
     "笔记/Day63-检查点自测5题.md",
     "笔记/Day63-第9周检查点.md",
     "学习日志/2026-09-18-Day64-学习日志.md",
@@ -262,24 +270,15 @@
     "projects/python-practice/day62/requirements.txt",
     "projects/python-practice/day62/01_faiss.py",
     "projects/python-practice/day62",
-    "projects/python-practice/day57/chroma_db/chroma.sqlite3-journal",
     "笔记/Day60-VectorStore与QA.md",
     "笔记/Day60-自测5题.md",
     "学习日志/2026-09-18-Day61-学习日志.md",
     "projects/project-2-rag/README.md",
     "projects/project-2-rag/requirements.txt",
     "projects/project-2-rag/main.py",
-    "projects/project-2-rag",
-    "projects/python-practice/day60/__pycache__/01_vectorstore_qa.cpython-313.pyc",
-    "projects/python-practice/day60/__pycache__",
     "术语库/embedding.md",
     "输出/RAG/LangChain Loader与Splitter 的学习.md",
     "模板/术语模板.md",
-    "笔记/Day59-自测5题.md",
-    "笔记/Day59-自测5题-批改版.md",
-    "笔记/Day59-Loader与Splitter.md",
-    "模板/输出文档模板.md",
-    "笔记/Day58-自测5题.md",
     "projects/media-topic-assistant/test-results/mobile.png",
     "projects/media-topic-assistant/test-results/desktop-topics.png",
     "projects/media-topic-assistant/test-results/brief.png",
