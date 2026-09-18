@@ -22,7 +22,7 @@ from main import (  # noqa: E402
 )
 
 EVAL_MD = HERE / "eval" / "评测集.md"
-OUT_MD = HERE / "eval" / "运行记录.md"
+DEFAULT_OUT = HERE / "eval" / "运行记录.md"
 
 # 跨篇题：命中其中任一文件名即可（见评测表备注）
 ANY_OF = {
@@ -83,7 +83,17 @@ def main() -> None:
     p = argparse.ArgumentParser()
     p.add_argument("--limit", type=int, default=10, help="先跑前 N 条，默认 10")
     p.add_argument("--all", action="store_true", help="跑满表里所有问句")
+    p.add_argument(
+        "--ids",
+        default="",
+        help="只跑这些 id，逗号分隔，例如 24",
+    )
     p.add_argument("-k", type=int, default=3)
+    p.add_argument(
+        "--out",
+        default="",
+        help="写入路径，默认 eval/运行记录.md；调 k 时请另存，避免覆盖基线",
+    )
     args = p.parse_args()
 
     if not CHAT_KEY or not EMBED_KEY or not EMBED_BASE or not EMBED_MODEL:
@@ -91,8 +101,14 @@ def main() -> None:
         sys.exit(1)
 
     rows = parse_table(EVAL_MD.read_text(encoding="utf-8"))
-    if not args.all:
+    if args.ids.strip():
+        want = {int(x) for x in args.ids.split(",") if x.strip()}
+        rows = [r for r in rows if r["id"] in want]
+    elif not args.all:
         rows = rows[: args.limit]
+    out_path = Path(args.out) if args.out.strip() else DEFAULT_OUT
+    if not out_path.is_absolute():
+        out_path = HERE / out_path
 
     lines = [
         "# 评测运行记录",
@@ -128,8 +144,8 @@ def main() -> None:
     lines.append(f"- 条数：{len(rows)}")
     lines.append(f"- 引用命中(自动)：{hit}/{len(rows)} = {rate:.0%}")
     lines.append("- 可接受率：请打开本文件逐条勾到 `评测集.md`")
-    OUT_MD.write_text("\n".join(lines), encoding="utf-8")
-    print(f"已写入 {OUT_MD}")
+    out_path.write_text("\n".join(lines), encoding="utf-8")
+    print(f"已写入 {out_path}")
     print(f"引用命中(自动) {hit}/{len(rows)}")
 
 
