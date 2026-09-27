@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "输出/RAG/LangChain Loader与Splitter 的学习.md",
+                "file": "笔记/Day71-FunctionCalling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LangChain Loader与Splitter 的学习"
+              "title": "Day71-FunctionCalling"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day69-检查点自测5题.md",
+                "file": "笔记/Day71-自测5题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day69-检查点自测5题"
+              "title": "Day71-自测5题"
             }
           }
         ]
@@ -244,9 +244,18 @@
   },
   "active": "8acba08ceb3a05bb",
   "lastOpenFiles": [
-    "笔记/Day68-README与GraphRAG.md",
-    "笔记/Day69-第10周检查点.md",
+    "笔记/Day69-检查点自测5题-批改版.md",
+    "笔记/Day71-自测5题-批改版.md",
+    "笔记/Day71-自测5题.md",
+    "笔记/Day71-FunctionCalling.md",
     "笔记/Day69-检查点自测5题.md",
+    "笔记/Day69-第10周检查点.md",
+    "学习日志/2026-09-27-Day71-学习日志.md",
+    "plan/第11周-进度追踪.md",
+    "plan/第11周-定稿版.md",
+    "模板/输出文档模板.md",
+    "输出/RAG/LangChain Loader与Splitter 的学习.md",
+    "笔记/Day68-README与GraphRAG.md",
     "plan/01-24周执行计划.md",
     "笔记/Day68-自测5题.md",
     "学习日志/2026-09-18-Day69-学习日志.md",
@@ -262,19 +271,10 @@
     "笔记/Day65-跑评测.md",
     "笔记/Day65-自测5题.md",
     "学习日志/2026-09-18-Day66-学习日志.md",
-    "projects/project-2-rag/eval/运行记录.md",
     "projects/project-2-rag/__pycache__/main.cpython-313.pyc",
     "projects/project-2-rag/__pycache__",
-    "笔记/Day64-自测5题.md",
-    "笔记/Day64-评测集.md",
-    "学习日志/2026-09-18-Day65-学习日志.md",
     "projects/project-2-rag/eval_run.py",
-    "笔记/Day63-检查点自测5题.md",
-    "笔记/Day63-第9周检查点.md",
-    "学习日志/2026-09-18-Day64-学习日志.md",
-    "projects/project-2-rag/eval/评测集.md",
     "projects/project-2-rag/eval",
-    "plan/第10周-进度追踪.md",
     "projects/python-practice/day62/requirements.txt",
     "projects/python-practice/day62/01_faiss.py",
     "projects/python-practice/day62",
