@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "plan/01-24周执行计划.md",
+                "file": "输出/RAG/LangChain Loader与Splitter 的学习.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-24周执行计划"
+              "title": "LangChain Loader与Splitter 的学习"
             }
           }
         ]
@@ -244,10 +244,11 @@
   },
   "active": "8acba08ceb3a05bb",
   "lastOpenFiles": [
+    "笔记/Day68-README与GraphRAG.md",
     "笔记/Day69-第10周检查点.md",
     "笔记/Day69-检查点自测5题.md",
+    "plan/01-24周执行计划.md",
     "笔记/Day68-自测5题.md",
-    "笔记/Day68-README与GraphRAG.md",
     "学习日志/2026-09-18-Day69-学习日志.md",
     "projects/python-practice/day57/chroma_db/chroma.sqlite3-journal",
     "笔记/Day67-自测5题.md",
@@ -274,7 +275,6 @@
     "projects/project-2-rag/eval/评测集.md",
     "projects/project-2-rag/eval",
     "plan/第10周-进度追踪.md",
-    "plan/第10周-定稿版.md",
     "projects/python-practice/day62/requirements.txt",
     "projects/python-practice/day62/01_faiss.py",
     "projects/python-practice/day62",
