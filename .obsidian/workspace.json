@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day71-FunctionCalling.md",
+                "file": "面试题/2026-09-27-Day71-FunctionCalling四个步骤.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day71-FunctionCalling"
+              "title": "2026-09-27-Day71-FunctionCalling四个步骤"
             }
           }
         ]
@@ -244,10 +244,14 @@
   },
   "active": "8acba08ceb3a05bb",
   "lastOpenFiles": [
+    "笔记/Day71-FunctionCalling.md",
+    "面试题/2026-09-18-Day69-第10周检查点-RAG评测.md",
+    "面试题/2026-09-27-Day71-FunctionCalling四个步骤.md",
+    "面试题/索引.md",
+    "面试题",
     "笔记/Day69-检查点自测5题-批改版.md",
     "笔记/Day71-自测5题-批改版.md",
     "笔记/Day71-自测5题.md",
-    "笔记/Day71-FunctionCalling.md",
     "笔记/Day69-检查点自测5题.md",
     "笔记/Day69-第10周检查点.md",
     "学习日志/2026-09-27-Day71-学习日志.md",
@@ -268,9 +272,6 @@
     "笔记/Day66-调优k.md",
     "学习日志/2026-09-18-Day67-学习日志.md",
     "projects/project-2-rag/eval/运行记录-k5-q24.md",
-    "笔记/Day65-跑评测.md",
-    "笔记/Day65-自测5题.md",
-    "学习日志/2026-09-18-Day66-学习日志.md",
     "projects/project-2-rag/__pycache__/main.cpython-313.pyc",
     "projects/project-2-rag/__pycache__",
     "projects/project-2-rag/eval_run.py",
@@ -279,7 +280,6 @@
     "projects/python-practice/day62/01_faiss.py",
     "projects/python-practice/day62",
     "projects/project-2-rag/requirements.txt",
-    "projects/project-2-rag/main.py",
     "projects/media-topic-assistant/test-results/mobile.png",
     "projects/media-topic-assistant/test-results/desktop-topics.png",
     "projects/media-topic-assistant/test-results/brief.png",
