@@ -106,12 +106,15 @@ def main() -> None:
 
         print("模型点名:", json.dumps(tool_calls, ensure_ascii=False, indent=2))
         messages.append(message)
-        # 删掉下一行，按笔记补四步：
-        # 1. messages 追加这条 assistant（message 原样放进去）
-        # 2. json.loads(tool_calls[0]["function"]["arguments"])，取出 track
-        # 3. 名字是 lookup_hotspot 才调用；否则 content 写「未知工具」
-        # 4. messages 追加 role=tool，带 tool_call_id 和函数返回的字符串
-        raise NotImplementedError("先完成笔记里的四步，再删掉这一行")
+        s = tool_calls[0]["function"]["arguments"]
+        b = json.loads(s)
+        track = b["track"]
+        tool_name = tool_calls[0]["function"]["name"]
+        if tool_name == "lookup_hotspot":
+            content = lookup_hotspot(track)
+        else:
+            content = "未知工具"
+        messages.append({"role": "tool", "tool_call_id": tool_calls[0]["id"], "content": content})
 
     print("步数用尽，停。最后一条 content:", messages[-1].get("content"))
 
