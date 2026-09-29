@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "提问模板/提问提示词.md",
+                "file": "笔记/Day72-一个工具的调用循环.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "提问提示词"
+              "title": "Day72-一个工具的调用循环"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Day72-一个工具的调用循环.md",
+                "file": "笔记/Day72-自测5题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day72-一个工具的调用循环"
+              "title": "Day72-自测5题"
             }
           }
         ]
@@ -244,11 +244,11 @@
   },
   "active": "959543ced8451bc0",
   "lastOpenFiles": [
-    "projects/python-practice/day72/__pycache__/01_one_tool.cpython-313.pyc",
-    "projects/python-practice/day72/__pycache__",
-    "提问模板/提问提示词.md",
     "笔记/Day72-一个工具的调用循环.md",
     "笔记/Day72-自测5题.md",
+    "提问模板/提问提示词.md",
+    "projects/python-practice/day72/__pycache__/01_one_tool.cpython-313.pyc",
+    "projects/python-practice/day72/__pycache__",
     "提问模板",
     "面试题/2026-09-27-Day71-FunctionCalling四个步骤.md",
     "笔记/Day71-自测5题.md",
@@ -279,7 +279,6 @@
     "projects/project-2-rag/__pycache__",
     "projects/project-2-rag/eval_run.py",
     "projects/project-2-rag/eval",
-    "projects/python-practice/day62/requirements.txt",
     "projects/media-topic-assistant/test-results/mobile.png",
     "projects/media-topic-assistant/test-results/desktop-topics.png",
     "projects/media-topic-assistant/test-results/brief.png",
