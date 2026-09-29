@@ -105,7 +105,7 @@ def main() -> None:
             return
 
         print("模型点名:", json.dumps(tool_calls, ensure_ascii=False, indent=2))
-
+        messages.append(message)
         # 删掉下一行，按笔记补四步：
         # 1. messages 追加这条 assistant（message 原样放进去）
         # 2. json.loads(tool_calls[0]["function"]["arguments"])，取出 track
