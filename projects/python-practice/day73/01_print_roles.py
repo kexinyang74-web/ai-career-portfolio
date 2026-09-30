@@ -98,9 +98,13 @@ def print_roles(messages: list) -> None:
             label = "规矩"
         elif role == "user":
             label = "用户的话"
-        else:
-            # 补 tool，以及 assistant 的两种。写完删掉下面这一行。
-            raise NotImplementedError("补上「行动 / 观察 / 给用户的回答」后再跑")
+        elif role == "tool":
+            label = "观察"
+        elif role == "assistant":
+            if item.get("tool_calls"):
+                label = "行动"
+            else:
+                label = "给用户的回答"
         print(i, role, label)
         i = i + 1
 
