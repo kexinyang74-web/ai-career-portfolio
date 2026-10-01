@@ -13,52 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/2026-10-01-简历事实.md",
-                "mode": "source",
+                "file": "拾光桌面应用学习/Day2-Svelte页面与状态.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-10-01-简历事实"
-            }
-          }
-        ]
-      },
-      {
-        "id": "b84611a0936d9b2d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d44c6d9558c475a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/2026-10-01-自测5题.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-10-01-自测5题"
-            }
-          }
-        ]
-      },
-      {
-        "id": "0f7d018973877915",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "959543ced8451bc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/Day73-自测5题-批改版.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Day73-自测5题-批改版"
+              "title": "Day2-Svelte页面与状态"
             }
           }
         ]
@@ -265,8 +225,12 @@
   "active": "4f69a1a14a600bb9",
   "lastOpenFiles": [
     "笔记/2026-10-01-自测5题.md",
-    "笔记/Day73-自测5题.md",
+    "拾光桌面应用学习/Day2-Svelte页面与状态.md",
+    "拾光桌面应用学习/Day2-自测5题.md",
+    "拾光桌面应用学习/Day1-自测5题.md",
+    "拾光桌面应用学习/Day1-项目地图与启动链路.md",
     "笔记/2026-10-01-简历事实.md",
+    "笔记/Day73-自测5题.md",
     "笔记/Day73-ReAct对照消息角色.md",
     "学习日志/2026-09-30-Day73-学习日志.md",
     "学习日志/2026-10-01-学习日志.md",
@@ -291,10 +255,6 @@
     "面试题/2026-09-18-Day69-第10周检查点-RAG评测.md",
     "面试题/索引.md",
     "面试题",
-    "笔记/Day69-检查点自测5题-批改版.md",
-    "笔记/Day71-自测5题-批改版.md",
-    "笔记/Day69-检查点自测5题.md",
-    "笔记/Day69-第10周检查点.md",
     "projects/python-practice/day57/chroma_db/chroma.sqlite3-journal",
     "projects/project-2-rag/__pycache__/main.cpython-313.pyc",
     "projects/project-2-rag/__pycache__",
