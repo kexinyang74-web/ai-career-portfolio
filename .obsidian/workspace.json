@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "plan/后半程-第1周-定稿版.md",
-                "mode": "preview",
+                "file": "学习日志/2026-10-01-学习日志.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "后半程-第1周-定稿版"
+              "title": "2026-10-01-学习日志"
             }
           }
         ]
@@ -224,11 +224,11 @@
   },
   "active": "4f69a1a14a600bb9",
   "lastOpenFiles": [
+    "plan/后半程-第1周-定稿版.md",
     "拾光桌面应用学习/Day2-Svelte页面与状态.md",
     "笔记/2026-10-01-FastAPI-profile请求链路-自测5题.md",
     "笔记/2026-10-01-FastAPI-profile请求链路.md",
     "plan/后半程-第1周-进度追踪.md",
-    "plan/后半程-第1周-定稿版.md",
     "笔记/2026-10-01-AI应用岗19份JD调研.md",
     "plan/求职向-后半程.md",
     "笔记/2026-10-01-自测5题.md",
